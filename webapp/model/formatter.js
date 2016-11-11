@@ -10,10 +10,14 @@ sap.ui.define([], function() {
 		 * @returns {string} sValue with 2 digits rounded
 		 */
 		numberUnit: function(sValue) {
-			if (!sValue) {
+			if (!sValue ) {
 				return "";
 			}
-			return parseFloat(sValue).toFixed(2);
+			if(sValue == 0){
+				return "";
+			}
+			var fValue = parseFloat(sValue) ;
+			return fValue.toFixed(2);
 		},
 
 		soldeState: function(sValue) {
