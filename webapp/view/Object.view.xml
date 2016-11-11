@@ -6,7 +6,7 @@
 					<ObjectAttribute active="false" id="__attribute39" text="{Name}"/>
 				</attributes>
 			</ObjectHeader>
-			<Panel expandable="true">
+			<Panel expandable="true" expanded="true">
 				<content>
 					<HBox width="100%" id="__hbox0">
 						<items>
