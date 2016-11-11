@@ -84,13 +84,13 @@
 					<table:Column filterProperty="Debit" width="9rem">
 						<Label text="Debit"/>
 						<table:template>
-							<u:Currency value="{ path: 'Debit', type: 'sap.ui.model.type.Float' }" currency="EUR"/>
+							<u:Currency value="{ path: 'Debit', type: 'sap.ui.model.type.Float' }"/>
 						</table:template>
 					</table:Column>
 					<table:Column filterProperty="Credit" width="9rem">
 						<Label text="Credit"/>
 						<table:template>
-							<u:Currency value="{ path: 'Credit', type: 'sap.ui.model.type.Float' }" currency="EUR"/>
+							<u:Currency value="{ path: 'Credit', type: 'sap.ui.model.type.Float' }"/>
 						</table:template>
 					</table:Column>
 				</table:columns>
