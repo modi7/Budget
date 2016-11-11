@@ -1,0 +1,34 @@
+<mvc:View
+	controllerName="budget.controller.Worklist"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.m.semantic">
+
+	<semantic:FullscreenPage
+		id="page"
+		showNavButton="false"
+		showFooter="false"
+		title="{i18n>worklistViewTitle}">
+		<semantic:content>
+						<TileContainer allowAdd="true" id="__container0" tiles="{/Balance}">
+				<tiles>
+					<CustomTile class="myCustomTile" press="onTilePress">
+						<content>
+							<GenericTile class="tileLayout" header="{Name}" subheader="{Description}" frameType="TwoByOne" press="press">
+								<tileContent>
+									<TileContent unit="" footer="" class="tileLayoutRight">
+										<content>
+											<NumericContent value="{Solde}" icon="" valueColor="Good" scale="€"/>
+										</content>
+									</TileContent>
+								</tileContent>
+							</GenericTile>
+						</content>
+					</CustomTile>
+				</tiles>
+			</TileContainer>
+		</semantic:content>
+
+	</semantic:FullscreenPage>
+
+</mvc:View>

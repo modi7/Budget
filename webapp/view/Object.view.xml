@@ -1,0 +1,51 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" controllerName="budget.controller.Object">
+	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}" busyIndicatorDelay="{objectView>/delay}">
+		<semantic:content>
+			<ObjectHeader id="objectHeader" title="{Description}" number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true" numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
+				<attributes>
+					<ObjectAttribute active="false" id="__attribute39" text="{Name}"/>
+				</attributes>
+			</ObjectHeader>
+			<Panel expandable="true">
+				<content>
+					<HBox width="100%" id="__hbox0">
+						<items>
+							
+							
+							
+							<sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" layout="ResponsiveGridLayout" id="__form1" breakpointM="300" width="400px" labelSpanM="5" labelSpanL="6">
+								<sap.ui.layout.form:content>
+									<core:Title text="Title" id="__title0"/>
+									<Label text="Année"/>
+									<ComboBox items="{appView>/years}" maxWidth="" selectedKey="{objectView>/year}">
+										<items>
+											<core:ListItem text="{appView>description}" key="{appView>id}"/>
+										</items>
+									</ComboBox>
+									<Label text="Mois"/>
+									<ComboBox items="{appView>/months}" maxWidth="" selectedKey="{objectView>/month}">
+										<items>
+											<core:ListItem text="{appView>description}" key="{appView>id}"/>
+										</items>
+									</ComboBox>
+									<Label text="Solde début du mois"/>
+									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+									<Label text="Dépenses"/>
+									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>	
+									<Label text="Dont carte"/>
+									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>	
+									<Label text="Epargne"/>
+									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>									
+									<Label text="Solde"/>
+									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+									
+								</sap.ui.layout.form:content>
+							</sap.ui.layout.form:SimpleForm>
+
+						</items>
+					</HBox>
+				</content>
+			</Panel>
+		</semantic:content>
+	</semantic:FullscreenPage>
+</mvc:View>

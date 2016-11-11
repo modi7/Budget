@@ -1,0 +1,184 @@
+<edmx:Edmx
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Version="1.0">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="NODATASERVER">
+            <EntityType Name="User">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="realm" Type="Edm.String"/>
+                <Property Name="username" Type="Edm.String"/>
+                <Property Name="password" Type="Edm.String"/>
+                <Property Name="email" Type="Edm.String"/>
+                <Property Name="emailVerified" Type="Edm.Boolean"/>
+                <Property Name="verificationToken" Type="Edm.String"/>
+                <Property Name="status" Type="Edm.String"/>
+                <Property Name="created" Type="Edm.DateTime"/>
+                <Property Name="lastUpdated" Type="Edm.DateTime"/>
+                <Property Name="id" Type="Edm.Int32"/>
+                <NavigationProperty Name="accessTokens" Relationship="NODATASERVER.User_accessTokens_AccessToken_user" FromRole="User_accessTokens" ToRole="AccessToken_user"/>
+            </EntityType>
+            <EntityType Name="AccessToken">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="id" Type="Edm.String"/>
+                <Property Name="ttl" Type="Edm.Decimal"/>
+                <Property Name="created" Type="Edm.DateTime"/>
+                <Property Name="userId" Type="Edm.Decimal"/>
+                <NavigationProperty Name="user" Relationship="NODATASERVER.User_accessTokens_AccessToken_user" FromRole="AccessToken_user" ToRole="User_accessTokens"/>
+            </EntityType>
+            <EntityType Name="ACL">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="model" Type="Edm.String"/>
+                <Property Name="property" Type="Edm.String"/>
+                <Property Name="accessType" Type="Edm.String"/>
+                <Property Name="permission" Type="Edm.String"/>
+                <Property Name="principalType" Type="Edm.String"/>
+                <Property Name="principalId" Type="Edm.String"/>
+                <Property Name="id" Type="Edm.Int32"/>
+            </EntityType>
+            <EntityType Name="RoleMapping">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="id" Type="Edm.Int32"/>
+                <Property Name="principalType" Type="Edm.String"/>
+                <Property Name="principalId" Type="Edm.String"/>
+                <Property Name="roleId" Type="Edm.Decimal"/>
+                <NavigationProperty Name="role" Relationship="NODATASERVER.RoleMapping_role_Role_principals" FromRole="RoleMapping_role" ToRole="Role_principals"/>
+            </EntityType>
+            <EntityType Name="Role">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="id" Type="Edm.Int32"/>
+                <Property Name="name" Type="Edm.String"/>
+                <Property Name="description" Type="Edm.String"/>
+                <Property Name="created" Type="Edm.DateTime"/>
+                <Property Name="modified" Type="Edm.DateTime"/>
+                <NavigationProperty Name="principals" Relationship="NODATASERVER.RoleMapping_role_Role_principals" FromRole="Role_principals" ToRole="RoleMapping_role"/>
+            </EntityType>
+            <EntityType Name="Affectation">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="id" Type="Edm.Int32"/>
+                <Property Name="Description" Type="Edm.String"/>
+                <Property Name="Kind" Type="Edm.String"/>
+            </EntityType>
+            <EntityType Name="Compte">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="id" Type="Edm.Int32"/>
+                <Property Name="Name" Type="Edm.String"/>
+                <Property Name="Description" Type="Edm.String"/>
+                <Property Name="Kind" Type="Edm.String"/>
+                <NavigationProperty Name="Ecritures" Relationship="NODATASERVER.Compte_Ecritures_Ecriture_Ecriture" FromRole="Compte_Ecritures" ToRole="Ecriture_Ecriture"/>
+                <NavigationProperty Name="Balance" Relationship="NODATASERVER.Compte_Balance_Balance_Balance" FromRole="Compte_Balance" ToRole="Balance_Balance"/>
+                <NavigationProperty Name="Repartitions" Relationship="NODATASERVER.Compte_Repartitions_Repartition_Repartition" FromRole="Compte_Repartitions" ToRole="Repartition_Repartition"/>
+            </EntityType>
+            <EntityType Name="Ecriture">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="id" Type="Edm.Int32"/>
+                <Property Name="CompteId" Type="Edm.Decimal"/>
+                <Property Name="Year" Type="Edm.Decimal"/>
+                <Property Name="Month" Type="Edm.Decimal"/>
+                <Property Name="AffectationId" Type="Edm.Decimal"/>
+                <Property Name="Date" Type="Edm.DateTime"/>
+                <Property Name="Description" Type="Edm.String"/>
+                <Property Name="Debit" Type="Edm.Decimal"/>
+                <Property Name="Credit" Type="Edm.Decimal"/>
+                <Property Name="Carte" Type="Edm.String"/>
+            </EntityType>
+            <EntityType Name="Balance">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="id" Type="Edm.Int32"/>
+                <Property Name="Name" Type="Edm.String"/>
+                <Property Name="Description" Type="Edm.String"/>
+                <Property Name="Kind" Type="Edm.String"/>
+                <Property Name="Records" Type="Edm.Decimal"/>
+                <Property Name="Solde" Type="Edm.Decimal"/>
+                <NavigationProperty Name="Ecritures" Relationship="NODATASERVER.Compte_Ecritures_Ecriture_Ecriture" FromRole="Ecriture_Ecriture" ToRole="Ecriture_Ecriture"/>
+                <NavigationProperty Name="Balance" Relationship="NODATASERVER.Compte_Balance_Balance_Balance" FromRole="Balance_Balance" ToRole="Balance_Balance"/>
+                <NavigationProperty Name="Repartitions" Relationship="NODATASERVER.Compte_Repartitions_Repartition_Repartition" FromRole="Repartition_Repartition" ToRole="Repartition_Repartition"/>
+            </EntityType>
+            <EntityType Name="Repartition">
+                <Key>
+                    <PropertyRef Name="id"/>
+                </Key>
+                <Property Name="id" Type="Edm.Int32"/>
+                <Property Name="CompteId" Type="Edm.Decimal"/>
+                <Property Name="Description" Type="Edm.String"/>
+                <Property Name="Kind" Type="Edm.String"/>
+                <Property Name="Year" Type="Edm.Decimal"/>
+                <Property Name="Month" Type="Edm.Decimal"/>
+                <Property Name="AffectationId" Type="Edm.Decimal"/>
+                <Property Name="DescAffectation" Type="Edm.String"/>
+                <Property Name="Debit" Type="Edm.Decimal"/>
+                <Property Name="Credit" Type="Edm.Decimal"/>
+            </EntityType>
+            <Association Name="User_accessTokens_AccessToken_user">
+                <End Type="NODATASERVER.User" Role="User_accessTokens" Multiplicity="1"/>
+                <End Type="NODATASERVER.AccessToken" Role="AccessToken_user" Multiplicity="*"/>
+            </Association>
+            <Association Name="RoleMapping_role_Role_principals">
+                <End Type="NODATASERVER.RoleMapping" Role="RoleMapping_role" Multiplicity="*"/>
+                <End Type="NODATASERVER.Role" Role="Role_principals" Multiplicity="1"/>
+            </Association>
+            <Association Name="Compte_Ecritures_Ecriture_Ecriture">
+                <End Type="NODATASERVER.Compte" Role="Compte_Ecritures" Multiplicity="0..1"/>
+                <End Type="NODATASERVER.Ecriture" Role="Ecriture_Ecriture" Multiplicity="*"/>
+            </Association>
+            <Association Name="Compte_Balance_Balance_Balance">
+                <End Type="NODATASERVER.Compte" Role="Compte_Balance" Multiplicity="0..1"/>
+                <End Type="NODATASERVER.Balance" Role="Balance_Balance" Multiplicity="0..1"/>
+            </Association>
+            <Association Name="Compte_Repartitions_Repartition_Repartition">
+                <End Type="NODATASERVER.Compte" Role="Compte_Repartitions" Multiplicity="0..1"/>
+                <End Type="NODATASERVER.Repartition" Role="Repartition_Repartition" Multiplicity="*"/>
+            </Association>
+            <EntityContainer Name="NODATASERVER" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="Users" EntityType="NODATASERVER.User"/>
+                <EntitySet Name="AccessTokens" EntityType="NODATASERVER.AccessToken"/>
+                <EntitySet Name="ACLs" EntityType="NODATASERVER.ACL"/>
+                <EntitySet Name="RoleMappings" EntityType="NODATASERVER.RoleMapping"/>
+                <EntitySet Name="Roles" EntityType="NODATASERVER.Role"/>
+                <EntitySet Name="Affectations" EntityType="NODATASERVER.Affectation"/>
+                <EntitySet Name="Comptes" EntityType="NODATASERVER.Compte"/>
+                <EntitySet Name="Ecritures" EntityType="NODATASERVER.Ecriture"/>
+                <EntitySet Name="Balance" EntityType="NODATASERVER.Balance"/>
+                <EntitySet Name="Repartitions" EntityType="NODATASERVER.Repartition"/>
+                <AssociationSet Name="User_accessTokens_AccessToken" Association="NODATASERVER.User_accessTokens_AccessToken_user">
+                    <End Role="User_accessTokens" EntitySet="Users"/>
+                    <End Role="AccessToken_user" EntitySet="AccessTokens"/>
+                </AssociationSet>
+                <AssociationSet Name="RoleMapping_role_Role" Association="NODATASERVER.RoleMapping_role_Role_principals">
+                    <End Role="RoleMapping_role" EntitySet="RoleMappings"/>
+                    <End Role="Role_principals" EntitySet="Roles"/>
+                </AssociationSet>
+                <AssociationSet Name="Compte_Ecritures_Ecriture" Association="NODATASERVER.Compte_Ecritures_Ecriture_Ecriture">
+                    <End Role="Compte_Ecritures" EntitySet="Comptes"/>
+                    <End Role="Ecriture_Ecriture" EntitySet="Ecritures"/>
+                </AssociationSet>
+                <AssociationSet Name="Compte_Balance_Balance" Association="NODATASERVER.Compte_Balance_Balance_Balance">
+                    <End Role="Compte_Balance" EntitySet="Comptes"/>
+                    <End Role="Balance_Balance" EntitySet="Balance"/>
+                </AssociationSet>
+                <AssociationSet Name="Compte_Repartitions_Repartition" Association="NODATASERVER.Compte_Repartitions_Repartition_Repartition">
+                    <End Role="Compte_Repartitions" EntitySet="Comptes"/>
+                    <End Role="Repartition_Repartition" EntitySet="Repartitions"/>
+                </AssociationSet>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
