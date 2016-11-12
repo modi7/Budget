@@ -52,10 +52,16 @@ sap.ui.define([
 				],
 				and: true
 			});
+			
+			this.oBusyIndicator = oTable.getNoData();
+
 			oTable.bindRows({
 				path: "Ecritures",
-				filters: oFilter
+				filters: oFilter,
+				shareable: true
 			}); //	iRows.filter(oFilter);
+			
+					//	this.initBindingEventHandler ();
 		},
 		
 		_filterTable:function(){
@@ -161,6 +167,19 @@ sap.ui.define([
 				location.href
 			]));
 		},
+		
+		initBindingEventHandler : function(){
+			var oBusyIndicator = this.oBusyIndicator;
+			var oTable = this.byId("table");
+			var oBinding = oTable.getBinding("rows");
+			oBinding.attachDataRequested(function(){
+				oTable.setNoData(oBusyIndicator);
+			});
+			oBinding.attachDataReceived(function(){
+				oTable.setNoData(null); //Use default again ("No Data" in case no data is available)
+			});
+		},		
+		
 		/**
 		 *@memberOf budget.controller.Object
 		 */
