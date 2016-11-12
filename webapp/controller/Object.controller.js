@@ -52,20 +52,20 @@ sap.ui.define([
 				],
 				and: true
 			});
-			
+
 			this.oBusyIndicator = oTable.getNoData();
-this.initBindingEventHandler ();
+			// this.initBindingEventHandler();
 			oTable.bindRows({
 				path: "Ecritures",
 				filters: oFilter,
 				shareable: true
 			}); //	iRows.filter(oFilter);
-			
-					//	this.initBindingEventHandler ();
+
+			//	this.initBindingEventHandler ();
 		},
-		
-		_filterTable:function(){
-					var oFilter = new Filter({
+
+		_filterTable: function() {
+			var oFilter = new Filter({
 				filters: [
 					new sap.ui.model.Filter({
 						path: "Year",
@@ -167,19 +167,19 @@ this.initBindingEventHandler ();
 				location.href
 			]));
 		},
-		
-		initBindingEventHandler : function(){
+
+		initBindingEventHandler: function() {
 			var oBusyIndicator = this.oBusyIndicator;
 			var oTable = this.byId("table");
 			var oBinding = oTable.getBinding("rows");
-			oBinding.attachDataRequested(function(){
+			oBinding.attachDataRequested(function() {
 				oTable.setNoData(oBusyIndicator);
 			});
-			oBinding.attachDataReceived(function(){
+			oBinding.attachDataReceived(function() {
 				oTable.setNoData(null); //Use default again ("No Data" in case no data is available)
 			});
-		},		
-		
+		},
+
 		/**
 		 *@memberOf budget.controller.Object
 		 */
