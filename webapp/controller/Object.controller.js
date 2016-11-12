@@ -37,6 +37,7 @@ sap.ui.define([
 				oViewModel.setProperty("/delay", iOriginalBusyDelay);
 			});
 			var oTable = this.byId("table");
+			var oChart = this.byId("vizData");
 			var oFilter = new Filter({
 				filters: [
 					new sap.ui.model.Filter({
@@ -58,10 +59,15 @@ sap.ui.define([
 			oTable.bindRows({
 				path: "Ecritures",
 				filters: oFilter,
-				shareable: true
+				templateShareable:true
 			}); //	iRows.filter(oFilter);
-
-			//	this.initBindingEventHandler ();
+			
+			oChart.bindData({
+				path: "Repartitions",
+				filters: oFilter,
+				templateShareable:true
+			});
+			
 		},
 
 		_filterTable: function() {
@@ -81,6 +87,12 @@ sap.ui.define([
 				and: true
 			});
 			this.byId("table").getBinding("rows").filter(oFilter);
+			this.byId("vizData").getBinding("data").filter(oFilter);
+			
+			var oVizFrame = this.oVizFrame = this.getView().byId("idVizFrame");
+			var oPopOver = this.getView().byId("idPopOver");
+            oPopOver.connect(oVizFrame.getVizUid());
+            oPopOver.setFormatString("__UI5__FloatMaxFraction2");
 		},
 		/* =========================================================== */
 		/* event handlers                                              */

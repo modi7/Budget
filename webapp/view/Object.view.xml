@@ -1,22 +1,19 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table"
-	xmlns:u="sap.ui.unified" controllerName="budget.controller.Object">
-	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}"
-		busyIndicatorDelay="{objectView>/delay}" enableScrolling="false" class="sapUiContentPadding">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table" xmlns:form="sap.ui.layout.form" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz.data="sap.viz.ui5.data" controllerName="budget.controller.Object">
+	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}" busyIndicatorDelay="{objectView>/delay}" enableScrolling="false" class="sapUiContentPadding">
 		<semantic:content>
-			<ObjectHeader id="objectHeader" title="{Description}" number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€"
-				backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true"
-				numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
+			<ObjectHeader id="objectHeader" title="{Description}" number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true" numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
 				<attributes>
 					<ObjectAttribute active="false" id="__attribute39" text="{Name}"/>
 				</attributes>
 			</ObjectHeader>
-			<Panel expandable="true" expanded="true">
+			<HBox>
+				<items>
+			<Panel expandable="true" expanded="true" width="420px">
 				<content>
-					<HBox width="100%" id="__hbox0">
+					<VBox width="100%" id="__hbox0">
 						<items>
-							<sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" layout="ResponsiveGridLayout" id="__form1"
-								breakpointM="300" width="400px" labelSpanM="5" labelSpanL="6">
-								<sap.ui.layout.form:content>
+							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" id="__form1" breakpointM="300" width="400px" labelSpanM="5" labelSpanL="6">
+								<form:content>
 									<core:Title text="Title" id="__title0"/>
 									<Label text="Année"/>
 									<ComboBox items="{appView>/years}" maxWidth="" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
@@ -40,17 +37,38 @@
 									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
 									<Label text="Solde"/>
 									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-								</sap.ui.layout.form:content>
-							</sap.ui.layout.form:SimpleForm>
+								</form:content>
+							</form:SimpleForm>
+							<!--<chart:Chart data="{Repartitions}" type="Pie">-->
+							<!--	<chart:dimensions>-->
+							<!--		<chart:Dimension name="Type" label="{DescAffectation}"/>-->
+							<!--	</chart:dimensions>-->
+							<!--	<chart:measures>-->
+							<!--		<chart:Mesaure name="Debit" label="{Debit}"></chart:Mesaure>-->
+							<!--	</chart:measures>-->
+							<!--</chart:Chart>-->
+										<viz:Popover id="idPopOver"/>
+					<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" height="400px" width="100%" vizType="pie">
+						<viz:dataset>
+							<viz.data:FlattenedDataset data="{Repartitions}" id="vizData">
+								<viz.data:dimensions>
+									<viz.data:DimensionDefinition name="Type" value="{DescAffectation}"/>
+								</viz.data:dimensions>
+								<viz.data:measures>
+									<viz.data:MeasureDefinition name="Debit" value="{Debit}" displayValue="{DescAffectation}"/>
+								</viz.data:measures>
+							</viz.data:FlattenedDataset>
+						</viz:dataset>
+						<viz:feeds>
+							<viz.feeds:FeedItem uid="size" type="Measure" values="Debit"/>
+							<viz.feeds:FeedItem uid="color" type="Dimension" values="Type"/>
+						</viz:feeds>
+					</viz:VizFrame>
 						</items>
-					</HBox>
+					</VBox>
 				</content>
 			</Panel>
-			<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true"
-				ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{
-					path: 'Ecritures',
-					parameters: {operationMode: 'Server'}
-				}">
+			<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true" ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }">
 				<table:noData>
 					<BusyIndicator class="sapUiMediumMargin"/>
 				</table:noData>
@@ -88,17 +106,18 @@
 						<Label text="Debit"/>
 						<table:template>
 							<!--<u:Currency value="{ path: 'Debit', type: 'sap.ui.model.type.Float' }"/>-->
-							<ObjectNumber number="{ path: 'Debit', formatter: '.formatter.numberUnit' }" textAlign="End" />
+							<ObjectNumber number="{ path: 'Debit', formatter: '.formatter.numberUnit' }" textAlign="End"/>
 						</table:template>
 					</table:Column>
 					<table:Column filterProperty="Credit" width="9rem">
 						<Label text="Credit"/>
 						<table:template>
-							<ObjectNumber number="{ path: 'Credit', formatter: '.formatter.numberUnit' }" textAlign="End" />
+							<ObjectNumber number="{ path: 'Credit', formatter: '.formatter.numberUnit' }" textAlign="End"/>
 							<!--<u:Currency value="{ path: 'Credit', type: 'sap.ui.model.type.Float' }" />-->
 						</table:template>
 					</table:Column>
 				</table:columns>
+				
 				<!--				<footer>
 					<m:Toolbar>
 						<m:Label text="OData Model Operation Mode:" labelFor="operationMode"/>
@@ -112,6 +131,7 @@
 					</m:Toolbar>
 				</footer>-->
 			</table:Table>
+			</items></HBox>
 		</semantic:content>
 	</semantic:FullscreenPage>
 </mvc:View>
