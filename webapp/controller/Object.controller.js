@@ -54,7 +54,7 @@ sap.ui.define([
 			});
 			
 			this.oBusyIndicator = oTable.getNoData();
-
+this.initBindingEventHandler ();
 			oTable.bindRows({
 				path: "Ecritures",
 				filters: oFilter,
