@@ -51,7 +51,7 @@ for(var i = iYear; i <= new Date().getFullYear(); i++ ){
 			then(fnSetAppNotBusy);
 			this.getOwnerComponent().getModel().setUseBatch(false);
 			// apply content density mode to root view
-			this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
+			this.getView().addStyleClass("sapUiSizeCompact");
 		}
 	});
 

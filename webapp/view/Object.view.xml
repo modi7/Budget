@@ -8,117 +8,121 @@
 			</ObjectHeader>
 			<HBox>
 				<items>
-			<Panel expandable="true" expanded="true" width="420px">
-				<content>
-					<VBox width="100%" id="__hbox0">
-						<items>
-							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" id="__form1" breakpointM="300" width="400px" labelSpanM="5" labelSpanL="6">
-								<form:content>
-									<core:Title text="Title" id="__title0"/>
-									<Label text="Année"/>
-									<ComboBox items="{appView>/years}" maxWidth="" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
-										<items>
-											<core:ListItem text="{appView>description}" key="{appView>id}"/>
-										</items>
-									</ComboBox>
-									<Label text="Mois"/>
-									<ComboBox items="{appView>/months}" maxWidth="" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
-										<items>
-											<core:ListItem text="{appView>description}" key="{appView>id}"/>
-										</items>
-									</ComboBox>
-									<Label text="Solde début du mois"/>
-									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-									<Label text="Dépenses"/>
-									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-									<Label text="Dont carte"/>
-									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-									<Label text="Epargne"/>
-									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-									<Label text="Solde"/>
-									<ObjectNumber number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-								</form:content>
-							</form:SimpleForm>
-							<!--<chart:Chart data="{Repartitions}" type="Pie">-->
-							<!--	<chart:dimensions>-->
-							<!--		<chart:Dimension name="Type" label="{DescAffectation}"/>-->
-							<!--	</chart:dimensions>-->
-							<!--	<chart:measures>-->
-							<!--		<chart:Mesaure name="Debit" label="{Debit}"></chart:Mesaure>-->
-							<!--	</chart:measures>-->
-							<!--</chart:Chart>-->
-										<viz:Popover id="idPopOver"/>
-					<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" height="400px" width="100%" vizType="pie">
-						<viz:dataset>
-							<viz.data:FlattenedDataset data="{Repartitions}" id="vizData">
-								<viz.data:dimensions>
-									<viz.data:DimensionDefinition name="Type" value="{DescAffectation}"/>
-								</viz.data:dimensions>
-								<viz.data:measures>
-									<viz.data:MeasureDefinition name="Debit" value="{Debit}" displayValue="{DescAffectation}"/>
-								</viz.data:measures>
-							</viz.data:FlattenedDataset>
-						</viz:dataset>
-						<viz:feeds>
-							<viz.feeds:FeedItem uid="size" type="Measure" values="Debit"/>
-							<viz.feeds:FeedItem uid="color" type="Dimension" values="Type"/>
-						</viz:feeds>
-					</viz:VizFrame>
-						</items>
-					</VBox>
-				</content>
-			</Panel>
-			<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true" ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }">
-				<table:noData>
-					<BusyIndicator class="sapUiMediumMargin"/>
-				</table:noData>
-				<table:toolbar>
-					<Toolbar>
-						<Title id="title" text="Products"/>
-						<ToolbarSpacer/>
-						<Button icon="sap-icon://refresh" tooltip="Reinitialize Model" press="onModelRefresh"/>
-					</Toolbar>
-				</table:toolbar>
-				<table:columns>
-					<table:Column sortProperty="Date" filterProperty="Date" autoResizable="true" width="7rem">
-						<Label text="Date"/>
-						<table:template>
-							<Text text="{path:'Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}"/>
-						</table:template>
-					</table:Column>
-					<table:Column sortProperty="AffectationId" filterProperty="AffectationId" autoResizable="true" width="12rem">
-						<Label text="Affectation"/>
-						<table:template>
-							<ComboBox items="{/Affectations}" maxWidth="" selectedKey="{AffectationId}" selectionChange="onSelectionChange">
+					<Panel expanded="true" width="420px" backgroundDesign="Transparent">
+						<content>
+							<VBox width="100%" id="__hbox0">
 								<items>
-									<core:ListItem text="{Description}" key="{id}"/>
+									<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="400px" labelSpanM="5" labelSpanL="6" id="detailPanel">
+										<form:content>
+											<core:Title text="Résumé" id="__title0"/>
+											<Label text="Année"/>
+											<ComboBox items="{appView>/years}" maxWidth="" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
+												<items>
+													<core:ListItem text="{appView>description}" key="{appView>id}"/>
+												</items>
+											</ComboBox>
+											<Label text="Mois"/>
+											<ComboBox items="{appView>/months}" maxWidth="" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
+												<items>
+													<core:ListItem text="{appView>description}" key="{appView>id}"/>
+												</items>
+											</ComboBox>
+											<Label text="Solde début du mois"/>
+											<ObjectNumber number="{ path: 'SoldeDebut', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+											<Label text="Ressources"/>
+											<ObjectNumber number="{ path: 'Entrees', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+											<Label text="Dépenses"/>
+											<ObjectNumber number="{ path: 'Depense', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+											<Label text="Dont carte"/>
+											<ObjectNumber number="{ path: 'Carte', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+											<Label text="Epargne"/>
+											<ObjectNumber number="{ path: 'Epargne', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+											<Label text="Solde encours"/>
+											<ObjectNumber number="{ path: 'SoldeInt', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+										<Label text="Solde "/>
+											<ObjectNumber number="{ path: 'SoldeFin', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat" state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
+										
+										</form:content>
+									</form:SimpleForm>
+									<!--<chart:Chart data="{Repartitions}" type="Pie">-->
+									<!--	<chart:dimensions>-->
+									<!--		<chart:Dimension name="Type" label="{DescAffectation}"/>-->
+									<!--	</chart:dimensions>-->
+									<!--	<chart:measures>-->
+									<!--		<chart:Mesaure name="Debit" label="{Debit}"></chart:Mesaure>-->
+									<!--	</chart:measures>-->
+									<!--</chart:Chart>-->
+									<viz:Popover id="idPopOver"/>
+									<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" height="400px" width="100%" vizType="pie">
+										<viz:dataset>
+											<viz.data:FlattenedDataset data="{Repartitions}" id="vizData">
+												<viz.data:dimensions>
+													<viz.data:DimensionDefinition name="Type" value="{DescAffectation}"/>
+												</viz.data:dimensions>
+												<viz.data:measures>
+													<viz.data:MeasureDefinition name="Debit" value="{Debit}" displayValue="{DescAffectation}"/>
+												</viz.data:measures>
+											</viz.data:FlattenedDataset>
+										</viz:dataset>
+										<viz:feeds>
+											<viz.feeds:FeedItem uid="size" type="Measure" values="Debit"/>
+											<viz.feeds:FeedItem uid="color" type="Dimension" values="Type"/>
+										</viz:feeds>
+									</viz:VizFrame>
 								</items>
-							</ComboBox>
-						</table:template>
-					</table:Column>
-					<table:Column sortProperty="Description" filterProperty="Description" autoResizable="true">
-						<Label text="Description"/>
-						<table:template>
-							<Text text="{Description}"/>
-						</table:template>
-					</table:Column>
-					<table:Column filterProperty="Debit" width="9rem">
-						<Label text="Debit"/>
-						<table:template>
-							<!--<u:Currency value="{ path: 'Debit', type: 'sap.ui.model.type.Float' }"/>-->
-							<ObjectNumber number="{ path: 'Debit', formatter: '.formatter.numberUnit' }" textAlign="End"/>
-						</table:template>
-					</table:Column>
-					<table:Column filterProperty="Credit" width="9rem">
-						<Label text="Credit"/>
-						<table:template>
-							<ObjectNumber number="{ path: 'Credit', formatter: '.formatter.numberUnit' }" textAlign="End"/>
-							<!--<u:Currency value="{ path: 'Credit', type: 'sap.ui.model.type.Float' }" />-->
-						</table:template>
-					</table:Column>
-				</table:columns>
-				
-				<!--				<footer>
+							</VBox>
+						</content>
+					</Panel>
+					<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true" ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }">
+						<table:noData>
+							<BusyIndicator class="sapUiMediumMargin"/>
+						</table:noData>
+						<table:toolbar>
+							<Toolbar>
+								<Title id="title" text="Ecritures"/>
+								<ToolbarSpacer/>
+								<Button icon="sap-icon://refresh" tooltip="Reinitialize Model" press="onModelRefresh"/>
+							</Toolbar>
+						</table:toolbar>
+						<table:columns>
+							<table:Column sortProperty="Date" filterProperty="Date" autoResizable="true" width="7rem">
+								<Label text="Date"/>
+								<table:template>
+									<Text text="{path:'Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}"/>
+								</table:template>
+							</table:Column>
+							<table:Column sortProperty="AffectationId" filterProperty="AffectationId" autoResizable="true" width="12rem">
+								<Label text="Affectation"/>
+								<table:template>
+									<ComboBox items="{/Affectations}" maxWidth="" selectedKey="{AffectationId}" selectionChange="onSelectionChange">
+										<items>
+											<core:ListItem text="{Description}" key="{id}"/>
+										</items>
+									</ComboBox>
+								</table:template>
+							</table:Column>
+							<table:Column sortProperty="Description" filterProperty="Description" autoResizable="true">
+								<Label text="Description"/>
+								<table:template>
+									<Text text="{Description}"/>
+								</table:template>
+							</table:Column>
+							<table:Column filterProperty="Debit" width="9rem">
+								<Label text="Debit"/>
+								<table:template>
+									<!--<u:Currency value="{ path: 'Debit', type: 'sap.ui.model.type.Float' }"/>-->
+									<ObjectNumber number="{ path: 'Debit', formatter: '.formatter.numberUnit' }" textAlign="End"/>
+								</table:template>
+							</table:Column>
+							<table:Column filterProperty="Credit" width="9rem">
+								<Label text="Credit"/>
+								<table:template>
+									<ObjectNumber number="{ path: 'Credit', formatter: '.formatter.numberUnit' }" textAlign="End"/>
+									<!--<u:Currency value="{ path: 'Credit', type: 'sap.ui.model.type.Float' }" />-->
+								</table:template>
+							</table:Column>
+						</table:columns>
+						<!--				<footer>
 					<m:Toolbar>
 						<m:Label text="OData Model Operation Mode:" labelFor="operationMode"/>
 						<m:SegmentedButton id="operationMode" select="onOperationModeChange" selectedKey="{ui>selectedOperationMode}" items="{ui>/operationModes}">
@@ -130,8 +134,9 @@
 						<m:Button icon="sap-icon://hint" tooltip="Show information" press="showInfo"/>
 					</m:Toolbar>
 				</footer>-->
-			</table:Table>
-			</items></HBox>
+					</table:Table>
+				</items>
+			</HBox>
 		</semantic:content>
 	</semantic:FullscreenPage>
 </mvc:View>

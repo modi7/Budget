@@ -42,9 +42,13 @@
 			"phone": false
 		},
 		"supportedThemes": ["sap_hcb", "sap_bluecrystal"],
+		"config": {
+			"fullWidth": true
+		},
 		"fullWidth": true
 	},
 	"sap.ui5": {
+
 		"_version": "1.2.0",
 		"rootView": {
 			"viewName": "budget.view.App",
@@ -123,6 +127,9 @@
 					"viewId": "notFound"
 				}
 			}
+		},
+		"config": {
+			"fullWidth": true
 		}
 	}
 }
