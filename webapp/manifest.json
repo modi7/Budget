@@ -42,13 +42,9 @@
 			"phone": false
 		},
 		"supportedThemes": ["sap_hcb", "sap_bluecrystal"],
-		"config": {
-			"fullWidth": true
-		},
 		"fullWidth": true
 	},
 	"sap.ui5": {
-
 		"_version": "1.2.0",
 		"rootView": {
 			"viewName": "budget.view.App",
@@ -63,6 +59,9 @@
 				},
 				"sap.m": {
 					"minVersion": "1.36.0"
+				},
+				"sap.ui.unified": {
+					"minVersion": "1.36"
 				}
 			}
 		},
@@ -128,8 +127,11 @@
 				}
 			}
 		},
-		"config": {
-			"fullWidth": true
+		"resources": {
+			"css": [{
+				"uri": "css/style.css",
+				"id": "style"
+			}]
 		}
 	}
 }

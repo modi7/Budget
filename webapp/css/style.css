@@ -21,4 +21,26 @@
 .numberFormat {
     padding-top: 1rem;
  /*   height: 2.5rem; */
-} 
+}
+
+.backgroundForm{
+	background: transparent !important;
+}
+
+.backgroundForm .sapUiFormM>.sapUiFormResGrid>.sapUiFormContainerTitle, .sapUiFormM>.sapUiFormResGrid>.sapUiFormContainerToolbar{
+		background: transparent !important;
+}
+
+.tableStyle{
+	
+	float: right;
+	margin-right: 3rem;
+	width: 90%;
+	
+}
+.vboxStyle{
+	/*margin-left: 1rem;*/
+}
+.tilesStyle{
+margin-left: 20%;
+}

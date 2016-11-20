@@ -6,54 +6,52 @@
 					<ObjectAttribute active="false" id="__attribute39" text="{Name}"/>
 				</attributes>
 			</ObjectHeader>
-			<HBox>
+			<!--			<sap.ui.layout:Grid xmlns:sap.ui.layout="sap.ui.layout" id="__grid0">
+			    <sap.ui.layout:content>
+			        <ObjectListItem counter="0" title="laptop" number="24" numberUnit="eur" intro="Category" icon="sap-icon://laptop" markFavorite="false" markFlagged="false" showMarkers="false" id="__item5"/>
+			        <ObjectListItem counter="0" title="projector" number="12" numberUnit="eur" intro="Category" icon="sap-icon://projector" markFavorite="false" markFlagged="false" showMarkers="false" id="__item6"/>
+			        <ObjectListItem counter="0" title="print" number="12" numberUnit="eur" intro="Category" icon="sap-icon://print" markFavorite="false" markFlagged="false" showMarkers="false" id="__item7"/>
+			        <ObjectListItem counter="0" title="leads" number="57" numberUnit="eur" intro="Category" icon="sap-icon://leads" markFavorite="false" markFlagged="false" showMarkers="false" id="__item8"/>
+			        <InputListItem type="Navigation" counter="0" label="Customers List" id="__item9"/>
+			        <InputListItem type="Navigation" counter="0" label="Leads list" id="__item10"/></sap.ui.layout:content>
+			</sap.ui.layout:Grid>-->
+			<HBox displayInline="true" fitContainer="true" justifyContent="SpaceBetween">
 				<items>
-					<Panel expanded="true" width="420px" backgroundDesign="Transparent">
-						<content>
-							<VBox width="100%" id="__hbox0">
-								<items>
-									<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="400px" labelSpanM="5" labelSpanL="6" id="detailPanel">
-										<form:content>
-											<core:Title text="Résumé" id="__title0"/>
-											<Label text="Année"/>
-											<ComboBox items="{appView>/years}" maxWidth="" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
-												<items>
-													<core:ListItem text="{appView>description}" key="{appView>id}"/>
-												</items>
-											</ComboBox>
-											<Label text="Mois"/>
-											<ComboBox items="{appView>/months}" maxWidth="" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
-												<items>
-													<core:ListItem text="{appView>description}" key="{appView>id}"/>
-												</items>
-											</ComboBox>
-											<Label text="Solde début du mois"/>
-											<ObjectNumber number="{ path: 'SoldeDebut', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-											<Label text="Ressources"/>
-											<ObjectNumber number="{ path: 'Entrees', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-											<Label text="Dépenses"/>
-											<ObjectNumber number="{ path: 'Depense', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-											<Label text="Dont carte"/>
-											<ObjectNumber number="{ path: 'Carte', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-											<Label text="Epargne"/>
-											<ObjectNumber number="{ path: 'Epargne', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-											<Label text="Solde encours"/>
-											<ObjectNumber number="{ path: 'SoldeInt', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
-										<Label text="Solde "/>
-											<ObjectNumber number="{ path: 'SoldeFin', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat" state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
-										
-										</form:content>
-									</form:SimpleForm>
-									<!--<chart:Chart data="{Repartitions}" type="Pie">-->
-									<!--	<chart:dimensions>-->
-									<!--		<chart:Dimension name="Type" label="{DescAffectation}"/>-->
-									<!--	</chart:dimensions>-->
-									<!--	<chart:measures>-->
-									<!--		<chart:Mesaure name="Debit" label="{Debit}"></chart:Mesaure>-->
-									<!--	</chart:measures>-->
-									<!--</chart:Chart>-->
-									<viz:Popover id="idPopOver"/>
-									<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" height="400px" width="100%" vizType="pie">
+					<VBox width="550px" id="__hbox0" class="vboxStyle">
+						<items>
+							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="550px" labelSpanM="5" labelSpanL="6" id="detailPanel" class="backgroundForm">
+								<form:content>
+									<core:Title text="Résumé" id="__title0"/>
+									<Label text="Année"/>
+									<ComboBox items="{appView>/years}" maxWidth="" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
+										<items>
+											<core:ListItem text="{appView>description}" key="{appView>id}"/>
+										</items>
+									</ComboBox>
+									<Label text="Mois"/>
+									<ComboBox items="{appView>/months}" maxWidth="" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
+										<items>
+											<core:ListItem text="{appView>description}" key="{appView>id}"/>
+										</items>
+									</ComboBox>
+									<Label text="Solde début du mois"/>
+									<ObjectNumber number="{ path: 'SoldeDebut', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+									<Label text="Ressources"/>
+									<ObjectNumber number="{ path: 'Entrees', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+									<Label text="Dépenses"/>
+									<ObjectNumber number="{ path: 'Depense', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+									<Label text="Dont carte"/>
+									<ObjectNumber number="{ path: 'Carte', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+									<Label text="Epargne"/>
+									<ObjectNumber number="{ path: 'Epargne', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+									<Label text="Solde encours"/>
+									<ObjectNumber number="{ path: 'SoldeInt', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
+									<Label text="Solde "/>
+									<ObjectNumber number="{ path: 'SoldeFin', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat" state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
+								</form:content>
+							</form:SimpleForm>
+							<!--									<viz:Popover id="idPopOver"/>
+									<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" height="500px" width="550px" vizType="pie">
 										<viz:dataset>
 											<viz.data:FlattenedDataset data="{Repartitions}" id="vizData">
 												<viz.data:dimensions>
@@ -68,12 +66,10 @@
 											<viz.feeds:FeedItem uid="size" type="Measure" values="Debit"/>
 											<viz.feeds:FeedItem uid="color" type="Dimension" values="Type"/>
 										</viz:feeds>
-									</viz:VizFrame>
-								</items>
-							</VBox>
-						</content>
-					</Panel>
-					<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true" ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }">
+									</viz:VizFrame>-->
+						</items>
+					</VBox>
+					<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true" ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }" class="tableStyle" width="90%">
 						<table:noData>
 							<BusyIndicator class="sapUiMediumMargin"/>
 						</table:noData>

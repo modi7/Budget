@@ -10,7 +10,7 @@
 		showFooter="false"
 		title="{i18n>worklistViewTitle}">
 		<semantic:content>
-						<TileContainer allowAdd="true" id="__container0" tiles="{/Balance}">
+						<TileContainer allowAdd="true" id="__container0" tiles="{/Balance}" class="tilesStyle" width="60%">
 				<tiles>
 					<CustomTile class="myCustomTile" press="onTilePress">
 						<content>

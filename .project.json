@@ -13,9 +13,6 @@
     ]
   },
   "dataBinding": {
-    "/webapp/view/App.view.xml": {
-      "entitySet": "UNBINDKEY"
-    },
     "/webapp/view/NotFound.view.xml": {
       "entitySet": "UNBINDKEY"
     },

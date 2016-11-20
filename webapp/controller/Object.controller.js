@@ -20,7 +20,7 @@ sap.ui.define([
 		 * @public
 		 */
 		onInit: function() {
-			this._initCustomFormat();
+			// this._initCustomFormat();
 			// Model used to manipulate control states. The chosen values make sure,
 			// detail page is busy indication immediately so there is no break in
 			// between the busy indication for loading the view's meta data
@@ -40,7 +40,7 @@ sap.ui.define([
 				oViewModel.setProperty("/delay", iOriginalBusyDelay);
 			});
 			var oTable = this.byId("table");
-			var oChart = this.byId("vizData");
+			// var oChart = this.byId("vizData");
 			var oFilter = new Filter({
 				filters: [
 					new sap.ui.model.Filter({
@@ -65,11 +65,11 @@ sap.ui.define([
 				templateShareable: true
 			}); //	iRows.filter(oFilter);
 
-			oChart.bindData({
-				path: "Repartitions",
-				filters: oFilter,
-				templateShareable: true
-			});
+			// oChart.bindData({
+			// 	path: "Repartitions",
+			// 	filters: oFilter,
+			// 	templateShareable: true
+			// });
 
 		},
 
@@ -90,12 +90,12 @@ sap.ui.define([
 				and: true
 			});
 			this.byId("table").getBinding("rows").filter(oFilter);
-			this.byId("vizData").getBinding("data").filter(oFilter);
+/*			this.byId("vizData").getBinding("data").filter(oFilter);
 
 			var oVizFrame = this.oVizFrame = this.getView().byId("idVizFrame");
 			var oPopOver = this.getView().byId("idPopOver");
 			oPopOver.connect(oVizFrame.getVizUid());
-			oPopOver.setFormatString("__UI5__FloatMaxFraction2");
+			oPopOver.setFormatString("__UI5__FloatMaxFraction2");*/
 			var oModel = this.getModel("objectView");
 			var iId = this.getView().getBindingContext().getProperty("id");
 
