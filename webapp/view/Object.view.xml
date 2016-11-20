@@ -1,25 +1,23 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table" xmlns:form="sap.ui.layout.form" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz.data="sap.viz.ui5.data" controllerName="budget.controller.Object">
-	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}" busyIndicatorDelay="{objectView>/delay}" enableScrolling="false" class="sapUiContentPadding">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table"
+	xmlns:form="sap.ui.layout.form" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds"
+	xmlns:viz.data="sap.viz.ui5.data" controllerName="budget.controller.Object">
+	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}"
+		busyIndicatorDelay="{objectView>/delay}" enableScrolling="false" class="sapUiContentPadding">
 		<semantic:content>
-			<ObjectHeader id="objectHeader" title="{Description}" number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true" numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
+			<ObjectHeader id="objectHeader" title="{Description}" number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€"
+				backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true"
+				numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
 				<attributes>
 					<ObjectAttribute active="false" id="__attribute39" text="{Name}"/>
 				</attributes>
 			</ObjectHeader>
-			<!--			<sap.ui.layout:Grid xmlns:sap.ui.layout="sap.ui.layout" id="__grid0">
-			    <sap.ui.layout:content>
-			        <ObjectListItem counter="0" title="laptop" number="24" numberUnit="eur" intro="Category" icon="sap-icon://laptop" markFavorite="false" markFlagged="false" showMarkers="false" id="__item5"/>
-			        <ObjectListItem counter="0" title="projector" number="12" numberUnit="eur" intro="Category" icon="sap-icon://projector" markFavorite="false" markFlagged="false" showMarkers="false" id="__item6"/>
-			        <ObjectListItem counter="0" title="print" number="12" numberUnit="eur" intro="Category" icon="sap-icon://print" markFavorite="false" markFlagged="false" showMarkers="false" id="__item7"/>
-			        <ObjectListItem counter="0" title="leads" number="57" numberUnit="eur" intro="Category" icon="sap-icon://leads" markFavorite="false" markFlagged="false" showMarkers="false" id="__item8"/>
-			        <InputListItem type="Navigation" counter="0" label="Customers List" id="__item9"/>
-			        <InputListItem type="Navigation" counter="0" label="Leads list" id="__item10"/></sap.ui.layout:content>
-			</sap.ui.layout:Grid>-->
+			<!--i5V7KgMm-->
 			<HBox displayInline="true" fitContainer="true" justifyContent="SpaceBetween">
 				<items>
 					<VBox width="550px" id="__hbox0" class="vboxStyle">
 						<items>
-							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="550px" labelSpanM="5" labelSpanL="6" id="detailPanel" class="backgroundForm">
+							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="550px" labelSpanM="5" labelSpanL="6"
+								id="detailPanel" class="backgroundForm">
 								<form:content>
 									<core:Title text="Résumé" id="__title0"/>
 									<Label text="Année"/>
@@ -47,7 +45,8 @@
 									<Label text="Solde encours"/>
 									<ObjectNumber number="{ path: 'SoldeInt', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
 									<Label text="Solde "/>
-									<ObjectNumber number="{ path: 'SoldeFin', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat" state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
+									<ObjectNumber number="{ path: 'SoldeFin', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"
+										state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
 								</form:content>
 							</form:SimpleForm>
 							<!--									<viz:Popover id="idPopOver"/>
@@ -69,7 +68,9 @@
 									</viz:VizFrame>-->
 						</items>
 					</VBox>
-					<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true" ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }" class="tableStyle" width="90%">
+					<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true"
+						ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }" class="tableStyle"
+						width="90%">
 						<table:noData>
 							<BusyIndicator class="sapUiMediumMargin"/>
 						</table:noData>
