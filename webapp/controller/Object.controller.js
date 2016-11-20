@@ -6,9 +6,9 @@ sap.ui.define([
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator",
 	"budget/model/formatter",
-	'sap/viz/ui5/format/ChartFormatter',
-	'sap/viz/ui5/api/env/Format'
-], function(BaseController, JSONModel, History, Filter, FilterOperator, formatter, ChartFormatter, Format) {
+//	'sap/viz/ui5/format/ChartFormatter',
+//	'sap/viz/ui5/api/env/Format'
+], function(BaseController, JSONModel, History, Filter, FilterOperator, formatter/*, ChartFormatter, Format*/) {
 	"use strict";
 	return BaseController.extend("budget.controller.Object", {
 		formatter: formatter,
