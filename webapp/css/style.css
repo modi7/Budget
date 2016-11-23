@@ -1,46 +1,40 @@
 /* Enter your custom styles here */
 
 .tileLayout {
-	float: left;
+    float: left;
 }
-
-.tileLayoutRight{
-	float: right;
+.tileLayoutRight {
+    float: right;
 }
-
 .myCustomTile {
-         width: 23.5rem;
-         height: 11rem;
-         border: 1px solid #dddddd;
-        border-radius: 5px;
-         box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-        background-color: #ffffff;
-         margin: 0.5rem;
-      }
-      
-.numberFormat {
- /*   padding-top: 1rem;
-    height: 2.5rem; */
+    width: 23.5rem;
+    height: 11rem;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    margin: 0.5rem;
 }
-
-.backgroundForm{
-	background: transparent !important;
+/*.numberFormat {
+       padding-top: 1rem;
+    height: 2.5rem; 
+}*/
+.backgroundForm {
+    background: transparent ;
 }
-
-.backgroundForm .sapUiFormM>.sapUiFormResGrid>.sapUiFormContainerTitle, .sapUiFormM>.sapUiFormResGrid>.sapUiFormContainerToolbar{
-		background: transparent !important;
+.backgroundForm .sapUiFormM>.sapUiFormResGrid>.sapUiFormContainerTitle,
+.sapUiFormM>.sapUiFormResGrid>.sapUiFormContainerToolbar {
+    background: transparent !important;
 }
-
-.tableStyle{
-	
-	float: right;
-	margin-right: 3rem;
-	width: 90%;
-	
+.tableStyle {
+    float: right;
+    margin-right: 3rem;
+    width: 95%;
+    height: 90%;
 }
-.vboxStyle{
-	/*margin-left: 1rem;*/
+.vboxStyle {
+    /*margin-left: 1rem;*/
 }
-.tilesStyle{
-margin-top: 10%;
+.tilesStyle {
+    margin-top: 10%;
 }

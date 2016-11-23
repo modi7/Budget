@@ -25,26 +25,7 @@
         "id": 87567846,
         "runnerId": "webapprunner",
         "displayName": "App",
-        "lastRunTimeStamp": 1479659213985
-      }
-    },
-    {
-      "filePath": "/webapp/Component.js",
-      "previewMode": 1,
-      "dataMode": 1,
-      "workspace": "withoutWorkspace",
-      "ui5ActiveVersion": null,
-      "ui5VerSource": null,
-      "isDefaultVersion": 0,
-      "urlParameters": [],
-      "urlParametersNotNeeded": false,
-      "hashParameter": "",
-      "backendSystem": [],
-      "_metadata": {
-        "id": 594940,
-        "runnerId": "fiorirunner",
-        "displayName": "Run Component.js",
-        "lastRunTimeStamp": 1479658951050
+        "lastRunTimeStamp": 1479767103799
       }
     },
     {
@@ -71,7 +52,27 @@
       "_metadata": {
         "id": 87567847,
         "runnerId": "webapprunner",
-        "displayName": "App (Mock Server)"
+        "displayName": "App (Mock Server)",
+        "lastRunTimeStamp": 1479756286124
+      }
+    },
+    {
+      "filePath": "/webapp/Component.js",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "urlParametersNotNeeded": false,
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 594940,
+        "runnerId": "fiorirunner",
+        "displayName": "Run Component.js",
+        "lastRunTimeStamp": 1479658951050
       }
     },
     {

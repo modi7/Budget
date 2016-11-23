@@ -1,6 +1,65 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" controllerName="budget.controller.Worklist">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" controllerName="budget.controller.Worklist" xmlns:tnt="sap.tnt">
 	<semantic:FullscreenPage id="page" showNavButton="false" showFooter="false" title="{i18n>worklistViewTitle}">
 		<semantic:content>
+<!--<tnt:ToolHeader>
+        <Button icon="sap-icon://menu2" type="Transparent">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="NeverOverflow" />
+            </layoutData>
+        </Button>
+        <ToolbarSpacer width="20px" />
+        <Button text="File" type="Transparent">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="Low" />
+            </layoutData>
+        </Button>
+        <Button text="Edit" type="Transparent">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="Low" />
+            </layoutData>
+        </Button>
+        <Button text="View" type="Transparent">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="Low" />
+            </layoutData>
+        </Button>
+        <Button text="Navigate" type="Transparent">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="Low" />
+            </layoutData>
+        </Button>
+        <Button text="Code" type="Transparent">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="Low" />
+            </layoutData>
+        </Button>
+        <Button text="Refactor" type="Transparent">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="Low" />
+            </layoutData>
+        </Button>
+        <Button text="Run" type="Transparent">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="Low" />
+            </layoutData>
+        </Button>
+        <Button text="Tools" type="Transparent">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="Low" />
+            </layoutData>
+        </Button>
+        <tnt:ToolHeaderUtilitySeparator />
+        <ToolbarSpacer>
+            <layoutData>
+                <OverflowToolbarLayoutData priority="NeverOverflow" minWidth="20px" />
+            </layoutData>
+        </ToolbarSpacer>
+        <Button text="Alan Smith" type="Transparent" press="handleUserNamePress">
+            <layoutData>
+                <OverflowToolbarLayoutData priority="NeverOverflow" />
+            </layoutData>
+        </Button>
+    </tnt:ToolHeader>        -->
 			<sap.ui.layout:Grid xmlns:sap.ui.layout="sap.ui.layout" id="__grid0" content="{/Balance}" position="Center" hSpacing="1" vSpacing="2"
 				defaultIndent="XL1 L1 M2 S6" class="tilesStyle">
 				<sap.ui.layout:content>
