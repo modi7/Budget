@@ -5,7 +5,7 @@ sap.ui.define([
 	"sap/ui/core/routing/History",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator",
-	"budget/model/formatter",
+	"budget/model/formatter"
 //	'sap/viz/ui5/format/ChartFormatter',
 //	'sap/viz/ui5/api/env/Format'
 ], function(BaseController, JSONModel, History, Filter, FilterOperator, formatter/*, ChartFormatter, Format*/) {
@@ -133,6 +133,9 @@ sap.ui.define([
 		 */
 		_onObjectMatched: function(oEvent) {
 			var sObjectId = oEvent.getParameter("arguments").objectId;
+			var oViewModel = this.getModel("objectView");
+			oViewModel.setProperty("/year", new Date().getFullYear());
+			oViewModel.setProperty("/month", new Date().getMonth() + 1);
 			this.getModel().metadataLoaded().then(function() {
 				var sObjectPath = this.getModel().createKey("Balance", {
 					id: sObjectId
@@ -144,6 +147,7 @@ sap.ui.define([
 				});
 				this._bindDetailPanel("/" + sSoldePath);
 				this._initBindingEventHandler();
+				this._filterTable();
 			}.bind(this));
 		},
 		/**
