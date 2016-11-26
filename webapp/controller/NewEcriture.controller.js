@@ -84,7 +84,11 @@ sap.ui.define([
 			oLocData.debitCredit = false;
 			oLocData.saveEnabled = false;
 			oLocData.minDate = new Date(oData.year, oData.month - 1, 1);
-			oLocData.maxDate = new Date(oData.year, oData.month , 0);
+			oLocData.maxDate = new Date(oData.year, oData.month, 0);
+			if (this.byId("newDate").setMinDate) {
+				this.byId("newDate").setMinDate(oLocData.minDate);
+				this.byId("newDate").setMaxDate(oLocData.maxDate);
+			}
 
 			//					this._oViewModel.setProperty("/viewTitle", this._oResourceBundle.getText("createViewTitle"));
 			//	this._oViewModel.setProperty("/mode", "create");

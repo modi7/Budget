@@ -6,7 +6,7 @@
 			<sap.ui.layout.form:content>
 				<sap.ui.core:Title text="Nouvelle Ecriture" id="__title0"/>
 				<Label text="Date" id="__label0" required="true"/>
-				<DatePicker width="50%" secondaryCalendarType="Gregorian"
+				<DatePicker width="50%" secondaryCalendarType="Gregorian" id="newDate"
 					value="{path:'Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}" minDate="{newView>/minDate}" maxDate="{newView>/maxDate}"/>
 				<Label text="Affectation" id="__label1" required="true"/>
 				<ComboBox items="{appView>/Affectations}" maxWidth="" selectedKey="{AffectationId}" selectionChange="onSelectionChange" width="50%">
