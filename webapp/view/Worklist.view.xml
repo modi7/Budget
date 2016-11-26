@@ -1,7 +1,8 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" controllerName="budget.controller.Worklist" xmlns:tnt="sap.tnt">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:tnt="sap.tnt"
+	controllerName="budget.controller.Worklist">
 	<semantic:FullscreenPage id="page" showNavButton="false" showFooter="false" title="{i18n>worklistViewTitle}">
 		<semantic:content>
-<!--<tnt:ToolHeader>
+			<!--<tnt:ToolHeader>
         <Button icon="sap-icon://menu2" type="Transparent">
             <layoutData>
                 <OverflowToolbarLayoutData priority="NeverOverflow" />
@@ -68,6 +69,7 @@
 						numberState="{path:'Solde', formatter:'.formatter.soldeState'}"/>
 				</sap.ui.layout:content>
 			</sap.ui.layout:Grid>
+
 			<!--			<TileContainer allowAdd="true" id="__container0" tiles="{/Balance}" class="tilesStyle" width="60%">
 				<tiles>
 					<CustomTile class="myCustomTile" press="onTilePress">
@@ -85,6 +87,6 @@
 					</CustomTile>
 				</tiles>
 		</TileContainer>-->
-	</semantic:content>
-</semantic:FullscreenPage>
+		</semantic:content>
+	</semantic:FullscreenPage>
 </mvc:View>

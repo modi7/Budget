@@ -24,6 +24,9 @@
     },
     "/webapp/view/Object.view.xml": {
       "entitySet": "Balance"
+    },
+    "/webapp/view/NewEcriture.view.xml": {
+      "entitySet": "Ecritures"
     }
   },
   "generation": [
@@ -31,6 +34,11 @@
       "templateId": "sap.ui.ui5-template-plugin.1worklist",
       "templateVersion": "1.36.2",
       "dateTimeStamp": "Fri, 11 Nov 2016 14:36:50 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 24 Nov 2016 12:33:07 GMT"
     }
   ],
   "translation": {
@@ -43,7 +51,7 @@
   "mockpreview": {
     "mockUri": "/odata",
     "metadataFilePath": "",
-    "loadJSONFiles": false,
+    "loadJSONFiles": true,
     "loadCustomRequests": false,
     "mockRequestsFilePath": ""
   },

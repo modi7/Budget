@@ -1,0 +1,145 @@
+[{
+	"id": 1,
+	"Description": "APPART",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(1)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 2,
+	"Description": "BANQUE",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(2)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 3,
+	"Description": "BEBE",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(3)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 4,
+	"Description": "BOULOT",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(4)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 5,
+	"Description": "COURS",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(5)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 6,
+	"Description": "DIVERS",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(6)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 7,
+	"Description": "EDF",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(7)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 8,
+	"Description": "EPARGNE",
+	"Kind": "P",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(8)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 9,
+	"Description": "HABILLEMENT",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(9)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 10,
+	"Description": "IMPOTS",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(10)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 11,
+	"Description": "STUDIO",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(11)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 12,
+	"Description": "TABAC",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(12)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 13,
+	"Description": "TELEPHONE",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(13)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 14,
+	"Description": "VACANCES",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(14)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 15,
+	"Description": "VIVI",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(15)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 16,
+	"Description": "SANTE",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(16)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 17,
+	"Description": "CREDIT IMMO",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(17)",
+		"type": "NODATASERVER.Affectation"
+	}
+}, {
+	"id": 18,
+	"Description": "AMINE",
+	"Kind": "C",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Affectations(18)",
+		"type": "NODATASERVER.Affectation"
+	}
+}]

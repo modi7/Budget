@@ -1,0 +1,105 @@
+[{
+	"id": 2,
+	"Name": "00040127162",
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Records": 6219,
+	"Solde": 2862.500000000017,
+	"Ecritures": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(2)/Ecritures"
+		}
+	},
+	"Balance": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(2)/Balance"
+		}
+	},
+	"Repartitions": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(2)/Repartitions"
+		}
+	},
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Balance(2)",
+		"type": "NODATASERVER.Balance"
+	}
+}, {
+	"id": 5,
+	"Name": "00022146980",
+	"Description": "LIVRET A",
+	"Kind": "E",
+	"Records": 15,
+	"Solde": 22774.19,
+	"Ecritures": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(5)/Ecritures"
+		}
+	},
+	"Balance": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(5)/Balance"
+		}
+	},
+	"Repartitions": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(5)/Repartitions"
+		}
+	},
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Balance(5)",
+		"type": "NODATASERVER.Balance"
+	}
+}, {
+	"id": 6,
+	"Name": "00021145578",
+	"Description": "COMPTE SUR LIVRET",
+	"Kind": "E",
+	"Records": 10,
+	"Solde": 16.02000000000038,
+	"Ecritures": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(6)/Ecritures"
+		}
+	},
+	"Balance": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(6)/Balance"
+		}
+	},
+	"Repartitions": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(6)/Repartitions"
+		}
+	},
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Balance(6)",
+		"type": "NODATASERVER.Balance"
+	}
+}, {
+	"id": 7,
+	"Name": "00020573155",
+	"Description": "Livret DEV durable Boursorama",
+	"Kind": "E",
+	"Records": 1,
+	"Solde": 4061.94,
+	"Ecritures": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(7)/Ecritures"
+		}
+	},
+	"Balance": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(7)/Balance"
+		}
+	},
+	"Repartitions": {
+		"__deferred": {
+			"uri": "http://localhost:3000/odata/Balance(7)/Repartitions"
+		}
+	},
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Balance(7)",
+		"type": "NODATASERVER.Balance"
+	}
+}]
