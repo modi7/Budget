@@ -9,7 +9,7 @@
 				<DatePicker width="50%" secondaryCalendarType="Gregorian" id="newDate"
 					value="{path:'Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}" minDate="{newView>/minDate}" maxDate="{newView>/maxDate}"/>
 				<Label text="Affectation" id="__label1" required="true"/>
-				<ComboBox items="{appView>/Affectations}" maxWidth="" selectedKey="{AffectationId}" selectionChange="onSelectionChange" width="50%">
+				<ComboBox items="{ path:'appView>/Affectations', sorters:{ path:'appView>Description' }}" maxWidth="" selectedKey="{AffectationId}" selectionChange="onSelectionChange" width="50%">
 					<items>
 						<core:ListItem text="{appView>Description}" key="{appView>id}"/>
 					</items>
@@ -18,7 +18,9 @@
 				<Input width="50%" value="{Description}" maxLength="40"/>
 				<Label text="Montant" width="100%" id="__label3"/>
 				<Input width="100%" value="{newView>/montant}" maxLength="10"/>
-				<Switch id="__switch0" customTextOff="Debit" customTextOn="Credit"/>
+				<Switch id="__switch0" customTextOff="Debit" customTextOn="Credit" state="{newView>/debitCredit}"/>
+				<Label text="Carte" width="100%"/>
+				<CheckBox selected="{newView>/carte}" ></CheckBox>
 			</sap.ui.layout.form:content>
 		</sap.ui.layout.form:SimpleForm>
 		<sap.m.semantic:content/>
