@@ -126,12 +126,6 @@
 				"notFound": {
 					"viewName": "NotFound",
 					"viewId": "notFound"
-				},
-				"new": {
-					"viewType": "XML",
-					"transition": "slide",
-					"clearAggregation": true,
-					"viewName": "NewEcriture"
 				}
 			}
 		},

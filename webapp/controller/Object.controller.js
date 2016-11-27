@@ -43,7 +43,8 @@ sap.ui.define([
 				textDebitCredit: "Débit",
 				iconDebitCredit: "sap-icon://less"
 			});
-			//	this.setModel(oViewModel, "newView");
+
+			this.setModel(this._oDialogModel, "newView");
 
 			this.getRouter().getRoute("object").attachPatternMatched(this._onObjectMatched, this);
 			// Store original busy indicator delay, so it can be restored later on
@@ -152,26 +153,25 @@ sap.ui.define([
 
 			if (!this._newDialog) {
 				this._newDialog = sap.ui.xmlfragment(
-					"newDialog",
+					this.getView().getId(),
 					"budget.fragment.newEcriture",
 					this
 				);
 				this.getView().addDependent(this._valueHelpDialog);
 			}
 			var oViewModel = this.getModel("objectView");
-			//var oModel = this._oDialogModel;
-			//var oLocData = oModel.getData();
 			var oLocData = {
 				montant: null,
 				debitCredit: false,
-				saveEnabled: false,
+				saveEnabled: true, //false,
 				minDate: new Date(oViewModel.getProperty("/year"), oViewModel.getProperty("/month") - 1, 1),
 				maxDate: new Date(oViewModel.getProperty("/year"), oViewModel.getProperty("/month"), 0),
 				textDebitCredit: "Débit",
 				iconDebitCredit: "sap-icon://less"
 			};
 			this._oDialogModel.setData(oLocData);
-			var oDate = sap.ui.core.Fragment.byId("newDialog", "newDate");
+			//	var oDate = sap.ui.core.Fragment.byId("newDialog", "newDate");
+			var oDate = this.byId("newDate");
 			if (oDate.setMinDate) {
 				oDate.setMinDate(oLocData.minDate);
 				oDate.setMaxDate(oLocData.maxDate);
@@ -183,7 +183,7 @@ sap.ui.define([
 				properties: {
 					CompteId: this.getView().getBindingContext().getProperty("id"),
 					Month: oViewModel.getProperty("/month"),
-					Year: oViewModel.getProperty("/year")
+					Year: oViewModel.getProperty("/year"),
 				}
 			});
 
@@ -214,6 +214,24 @@ sap.ui.define([
 			var test = oEvent.getSource();
 
 		},
+
+		onDialogSave: function() {
+			var oModel = this._newDialog.getModel("newView");
+			var oOdataModel = this.getModel();
+
+			if (oModel.getProperty("/debitCredit")) {
+				this.byId("DialogDebit").setValue(null);
+				this.byId("DialogCredit").setValue(oModel.getProperty("/montant"));
+			} else {
+				this.byId("DialogCredit").setValue(null);
+				this.byId("DialogDebit").setValue(oModel.getProperty("/montant"));	
+			}
+				
+			this.byId("DialogCarte").setValue(oModel.getProperty("/carte") ? "O": null);
+			oOdataModel.submitChanges();
+			this._newDialog.close();
+		},
+
 		onDialogCancel: function() {
 			MessageBox.confirm("Are you sur you want to Cancel?", {
 				//	styleClass: oComponent.getContentDensityClass(),
