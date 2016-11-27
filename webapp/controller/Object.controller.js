@@ -230,6 +230,7 @@ sap.ui.define([
 			this.byId("DialogCarte").setValue(oModel.getProperty("/carte") ? "O": null);
 			oOdataModel.submitChanges();
 			this._newDialog.close();
+			oOdataModel.refresh();
 		},
 
 		onDialogCancel: function() {
