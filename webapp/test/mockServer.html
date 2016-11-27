@@ -15,7 +15,7 @@
 			data-sap-ui-resourceroots='{"budget": "../"}'
 			data-sap-ui-frameOptions='allow'> 	// NON-SECURE setting for testing environment
 	</script>
-
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script>
 		sap.ui.getCore().attachInit(function () {
 			sap.ui.require([
@@ -27,6 +27,7 @@
 				server.init();
 				// initialize the UI component
 				new Shell({
+					appWidthLimited: false,
 					app: new ComponentContainer({
 						height : "100%",
 						name : "budget"

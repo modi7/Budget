@@ -1,6 +1,8 @@
 {
   "projectType": [
-    "sap.watt.uitools.ide.fiori"
+    "sap.watt.uitools.ide.fiori",
+    "sap.watt.uitools.ide.web",
+    "sap.watt.saptoolsets.fiori.project.uiadaptation"
   ],
   "build": {
     "targetFolder": "dist",
@@ -39,6 +41,11 @@
       "templateId": "ui5template.basicSAPUI5ApplicationComponent",
       "templateVersion": "1.4.0",
       "dateTimeStamp": "Thu, 24 Nov 2016 12:33:07 GMT"
+    },
+    {
+      "templateId": "uiadaptation.changespreviewjs",
+      "templateVersion": "0.0.0",
+      "dateTimeStamp": "Sun, 27 Nov 2016 12:09:34 GMT"
     }
   ],
   "translation": {
@@ -49,8 +56,8 @@
     "resourceModelName": "i18n"
   },
   "mockpreview": {
-    "mockUri": "/odata",
-    "metadataFilePath": "",
+    "mockUri": "http://localhost:3000/odata/",
+    "metadataFilePath": "localService/metadata.xml",
     "loadJSONFiles": true,
     "loadCustomRequests": false,
     "mockRequestsFilePath": ""

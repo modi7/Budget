@@ -69,7 +69,8 @@
 						</items>
 					</VBox>
 					<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true"
-						ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }" class="tableStyle">
+						ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }" class="tableStyle"
+						rowSelectionChange="onSelectionTableChange" selectionBehavior="RowSelector">
 						<table:noData>
 							<BusyIndicator class="sapUiMediumMargin"/>
 						</table:noData>
@@ -77,7 +78,8 @@
 							<Toolbar>
 								<Title id="title" text="Ecritures"/>
 								<ToolbarSpacer/>
-								<Button icon="sap-icon://refresh" tooltip="Reinitialize Model" press="onModelRefresh"/>
+								<Button icon="sap-icon://add" tooltip="Ajouter une ecriture" press="onAddPress"/>
+								<Button icon="sap-icon://less" tooltip="supprimer ecriture" type="Transparent" visible="{objectView>/deleteVisible}"/>
 							</Toolbar>
 						</table:toolbar>
 						<table:columns>
