@@ -81,8 +81,10 @@
 				"settings": {
 					"metadataUrlParams": {
 						"sap-documentation": "heading"
-					}
-				}
+					},
+					"defaultBindingMode": "TwoWay"
+				},
+				"preload": true
 			}
 		},
 		"routing": {

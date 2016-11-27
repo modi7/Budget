@@ -16,7 +16,7 @@
 			<Input width="100%" value="{Description}" maxLength="40" fieldWidth="100%"/>
 			<Label text="Montant" width="100%"/>
 			<Input width="100%" value="{newView>/montant}" maxLength="10" fieldWidth="100%"/>
-			<ToggleButton text="{newView>/textDebitCredit}" press="onTogglePress" width="8rem" pressed="{newView>/debitCredit}" type="Transparent" icon="{newView>/iconDebitCredit}">
+			<ToggleButton text="{newView>/textDebitCredit}" press="onTogglePress" pressed="{newView>/debitCredit}" type="Transparent" icon="{newView>/iconDebitCredit}" width="6rem">
 					<layoutData>
 						<FlexItemData growFactor="1"/>
 					</layoutData>

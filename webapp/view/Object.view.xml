@@ -69,7 +69,7 @@
 						</items>
 					</VBox>
 					<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true"
-						ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', parameters: {operationMode: 'Server'} }" class="tableStyle"
+						ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', templateShareable:true, parameters: {operationMode: 'Server'} }" class="tableStyle"
 						rowSelectionChange="onSelectionTableChange" selectionBehavior="RowSelector">
 						<table:noData>
 							<BusyIndicator class="sapUiMediumMargin"/>
@@ -136,8 +136,8 @@
 				</items>
 			</HBox>
 		</semantic:content>
-		<semantic:addAction>
+<!--		<semantic:addAction>
 			<semantic:AddAction tooltip="Ajouter" id="__action0" press="onAddPress"/>
-		</semantic:addAction>
+		</semantic:addAction>-->
 	</semantic:FullscreenPage>
 </mvc:View>

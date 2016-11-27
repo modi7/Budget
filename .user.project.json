@@ -18,14 +18,20 @@
         }
       ],
       "hashParameter": "",
-      "ui5ActiveVersion": null,
+      "ui5ActiveVersion": "1.40.12",
       "ui5VerSource": null,
       "isDefaultVersion": 1,
+      "backendSystem": [
+        {
+          "source": "Node",
+          "destinations": ""
+        }
+      ],
       "_metadata": {
         "id": 87567847,
         "runnerId": "webapprunner",
         "displayName": "App (Mock Server)",
-        "lastRunTimeStamp": 1480248573095
+        "lastRunTimeStamp": 1480254846276
       }
     },
     {
@@ -84,35 +90,6 @@
       }
     },
     {
-      "filePath": "/webapp/Component.js",
-      "previewMode": 1,
-      "dataMode": 0,
-      "workspace": "withoutWorkspace",
-      "ui5ActiveVersion": null,
-      "ui5VerSource": null,
-      "isDefaultVersion": 0,
-      "urlParameters": [
-        {
-          "paramName": "",
-          "paramValue": ""
-        }
-      ],
-      "urlParametersNotNeeded": false,
-      "hashParameter": "",
-      "backendSystem": [
-        {
-          "source": "Node",
-          "destinations": ""
-        }
-      ],
-      "_metadata": {
-        "id": 594940,
-        "runnerId": "fiorirunner",
-        "displayName": "Run Component.js",
-        "lastRunTimeStamp": 1480182963790
-      }
-    },
-    {
       "filePath": "/Budget/webapp/index.html",
       "previewMode": 1,
       "dataMode": 1,
@@ -165,6 +142,35 @@
         "id": 7524840,
         "runnerId": "webapprunner",
         "displayName": "Test Suite (Unit, OPA)"
+      }
+    },
+    {
+      "filePath": "/webapp/Component.js",
+      "previewMode": 1,
+      "dataMode": 0,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": ""
+        }
+      ],
+      "urlParametersNotNeeded": false,
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "Node",
+          "destinations": ""
+        }
+      ],
+      "_metadata": {
+        "id": 594940,
+        "runnerId": "fiorirunner",
+        "displayName": "Run Component.js",
+        "lastRunTimeStamp": 1480182963790
       }
     }
   ]
