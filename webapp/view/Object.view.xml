@@ -1,12 +1,7 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table"
-	xmlns:form="sap.ui.layout.form" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds"
-	xmlns:viz.data="sap.viz.ui5.data" controllerName="budget.controller.Object">
-	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}"
-		busyIndicatorDelay="{objectView>/delay}" enableScrolling="false" class="sapUiContentPadding">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table" xmlns:form="sap.ui.layout.form" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz.data="sap.viz.ui5.data" controllerName="budget.controller.Object">
+	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}" busyIndicatorDelay="{objectView>/delay}" enableScrolling="false" class="sapUiContentPadding">
 		<semantic:content>
-			<ObjectHeader id="objectHeader" title="{Description}" number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€"
-				backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true"
-				numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
+			<ObjectHeader id="objectHeader" title="{Description}" number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true" numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
 				<attributes>
 					<ObjectAttribute active="false" id="__attribute39" text="{Name}"/>
 				</attributes>
@@ -16,8 +11,7 @@
 				<items>
 					<VBox width="550px" id="__hbox0" class="vboxStyle">
 						<items>
-							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="550px" labelSpanM="5" labelSpanL="6"
-								id="detailPanel" class="backgroundForm">
+							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="550px" labelSpanM="5" labelSpanL="6" id="detailPanel" class="backgroundForm">
 								<form:content>
 									<core:Title text="Résumé" id="__title0"/>
 									<Label text="Année"/>
@@ -45,8 +39,7 @@
 									<Label text="Solde encours"/>
 									<ObjectNumber number="{ path: 'SoldeInt', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"/>
 									<Label text="Solde "/>
-									<ObjectNumber number="{ path: 'SoldeFin', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat"
-										state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
+									<ObjectNumber number="{ path: 'SoldeFin', formatter: '.formatter.numberUnit' }" numberUnit="€" textAlign="End" class="numberFormat" state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
 								</form:content>
 							</form:SimpleForm>
 							<!--									<viz:Popover id="idPopOver"/>
@@ -68,9 +61,7 @@
 									</viz:VizFrame>-->
 						</items>
 					</VBox>
-					<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true"
-						ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', templateShareable:true, parameters: {operationMode: 'Server'} }" class="tableStyle"
-						rowSelectionChange="onSelectionTableChange" selectionBehavior="RowSelector">
+					<table:Table id="table" selectionMode="MultiToggle" visibleRowCount="7" enableSelectAll="false" threshold="150" enableBusyIndicator="true" ariaLabelledBy="title" visibleRowCountMode="Auto" rows="{ path: 'Ecritures', templateShareable:true, parameters: {operationMode: 'Server'} }" class="tableStyle" rowSelectionChange="onSelectionTableChange" selectionBehavior="RowSelector">
 						<table:noData>
 							<BusyIndicator class="sapUiMediumMargin"/>
 						</table:noData>
@@ -79,7 +70,7 @@
 								<Title id="title" text="Ecritures"/>
 								<ToolbarSpacer/>
 								<Button icon="sap-icon://add" tooltip="Ajouter une ecriture" press="onAddPress"/>
-								<Button icon="sap-icon://less" tooltip="supprimer ecriture" type="Transparent" visible="{objectView>/deleteVisible}"/>
+								<Button icon="sap-icon://less" tooltip="supprimer ecriture" type="Transparent" visible="{objectView>/deleteVisible}" press="onDeletePress"/>
 							</Toolbar>
 						</table:toolbar>
 						<table:columns>
