@@ -1,9 +1,14 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="budget.controller.Upload"
-	xmlns:html="http://www.w3.org/1999/xhtml">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="budget.controller.Upload">
 	<App>
 		<pages>
+			<sap.m.semantic:FullscreenPage title="Semantic Page" xmlns:sap.m.semantic="sap.m.semantic" id="__page1" busy="{uploadView>/busy}">
+				<sap.m.semantic:cancelAction>
+					<sap.m.semantic:CancelAction press="onCancel"/>
+				</sap.m.semantic:cancelAction>
+			</sap.m.semantic:FullscreenPage>
 			<Page title="Title">
-				<content></content>
+				<content/>
 			</Page>
 		</pages>
 	</App>
