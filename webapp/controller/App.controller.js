@@ -65,7 +65,8 @@ sap.ui.define([
 				delay: 0,
 				months: aMonths,
 				years: aYears,
-				Affectations: []
+				Affectations: [],
+				Cleaffectations: []
 			});
 			this.setModel(oViewModel, "appView");
 
@@ -73,7 +74,9 @@ sap.ui.define([
 				oViewModel.setProperty("/busy", false);
 				oViewModel.setProperty("/delay", iOriginalBusyDelay);
 				var oModel = this.getOwnerComponent().getModel();
-				oModel.read("/Affectations", {success: this._onSuccess.bind(this) })
+				oModel.read("/Affectations", {success: this._onSuccess.bind(this) });
+				oModel.read("/Cleaffectations", {success: this._onSuccessAff.bind(this) });
+				
 			};
 
 			this.getOwnerComponent().getModel().metadataLoaded().
@@ -85,7 +88,11 @@ sap.ui.define([
 		
 		_onSuccess: function(response){
 			this.getModel("appView").setProperty("/Affectations", response.results);
-		}
+		},
+		
+		_onSuccessAff: function(response){
+			this.getModel("appView").setProperty("/Cleaffectations", response.results);
+		}		
 		
 	});
 

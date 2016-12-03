@@ -8,7 +8,7 @@
       "urlParameters": [
         {
           "paramName": "sap-ui-debug",
-          "paramValue": "true",
+          "paramValue": "false",
           "paramActive": false
         },
         {
@@ -31,7 +31,7 @@
         "id": 87567847,
         "runnerId": "webapprunner",
         "displayName": "App (Mock Server)",
-        "lastRunTimeStamp": 1480533379420
+        "lastRunTimeStamp": 1480780257436
       }
     },
     {

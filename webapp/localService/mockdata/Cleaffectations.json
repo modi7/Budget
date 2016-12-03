@@ -1,0 +1,529 @@
+[{
+	"id": 2,
+	"AffectationId": 7,
+	"Text": "EDF PR SIMM",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(2)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 3,
+	"AffectationId": 7,
+	"Text": "GDF",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(3)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 4,
+	"AffectationId": 7,
+	"Text": "PRLV EDF",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(4)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 5,
+	"AffectationId": 8,
+	"Text": "72123297183",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(5)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 6,
+	"AffectationId": 8,
+	"Text": "72127931986",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(6)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 7,
+	"AffectationId": 8,
+	"Text": "Epargne",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(7)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 8,
+	"AffectationId": 9,
+	"Text": "BOUCHERIE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(8)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 9,
+	"AffectationId": 9,
+	"Text": "CELIO",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(9)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 10,
+	"AffectationId": 9,
+	"Text": "DECATHLON",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(10)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 11,
+	"AffectationId": 9,
+	"Text": "DESIGUAL",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(11)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 12,
+	"AffectationId": 9,
+	"Text": "ERAM",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(12)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 13,
+	"AffectationId": 9,
+	"Text": "GO SPORT",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(13)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 14,
+	"AffectationId": 9,
+	"Text": "H & M",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(14)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 15,
+	"AffectationId": 9,
+	"Text": "KIABI",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(15)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 16,
+	"AffectationId": 9,
+	"Text": "M I M",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(16)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 17,
+	"AffectationId": 9,
+	"Text": "MEXX",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(17)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 18,
+	"AffectationId": 9,
+	"Text": "NEW LOOK",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(18)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 19,
+	"AffectationId": 9,
+	"Text": "NEW YORKER",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(19)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 20,
+	"AffectationId": 9,
+	"Text": "PIMKIE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(20)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 21,
+	"AffectationId": 9,
+	"Text": "PROMOD",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(21)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 22,
+	"AffectationId": 9,
+	"Text": "REDOUTE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(22)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 23,
+	"AffectationId": 9,
+	"Text": "SERGENT MAJOR",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(23)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 24,
+	"AffectationId": 9,
+	"Text": "SHOWROOMPRIVE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(24)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 25,
+	"AffectationId": 9,
+	"Text": "VERT BAUDET",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(25)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 26,
+	"AffectationId": 9,
+	"Text": "ZARA",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(26)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 27,
+	"AffectationId": 9,
+	"Text": "ZEEMAN",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(27)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 28,
+	"AffectationId": 10,
+	"Text": "DIRECTION GENERALE DES FINANCE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(28)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 29,
+	"AffectationId": 10,
+	"Text": "TRESOR PUBLIC",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(29)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 30,
+	"AffectationId": 11,
+	"Text": "72131120",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(30)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 31,
+	"AffectationId": 11,
+	"Text": "97200905",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(31)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 32,
+	"AffectationId": 11,
+	"Text": "Lybernet",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(32)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 33,
+	"AffectationId": 11,
+	"Text": "PACIFICA",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(33)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 34,
+	"AffectationId": 13,
+	"Text": "BOUYGUES",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(34)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 35,
+	"AffectationId": 13,
+	"Text": "FREE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(35)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 36,
+	"AffectationId": 13,
+	"Text": "NUMERICABLE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(36)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 37,
+	"AffectationId": 13,
+	"Text": "ORANGE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(37)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 38,
+	"AffectationId": 13,
+	"Text": "SFR",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(38)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 39,
+	"AffectationId": 15,
+	"Text": "C.A.F",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(39)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 40,
+	"AffectationId": 15,
+	"Text": "CAF DU NORD",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(40)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 41,
+	"AffectationId": 15,
+	"Text": "CB*0825",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(41)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 42,
+	"AffectationId": 15,
+	"Text": "CB*7958",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(42)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 43,
+	"AffectationId": 15,
+	"Text": "LAMOUREUX",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(43)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 44,
+	"AffectationId": 15,
+	"Text": "PHARMACIE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(44)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 45,
+	"AffectationId": 16,
+	"Text": "CHQ",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(45)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 46,
+	"AffectationId": 16,
+	"Text": "CPAM",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(46)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 47,
+	"AffectationId": 16,
+	"Text": "FRANCE LOISIRS",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(47)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 48,
+	"AffectationId": 16,
+	"Text": "GFP",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(48)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 49,
+	"AffectationId": 16,
+	"Text": "HELIUM",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(49)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 50,
+	"AffectationId": 16,
+	"Text": "JARDIN LA FERME",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(50)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 51,
+	"AffectationId": 16,
+	"Text": "POLYCARPE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(51)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 52,
+	"AffectationId": 17,
+	"Text": "pret Immo",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(52)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 53,
+	"AffectationId": 17,
+	"Text": "Remb Immo",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(53)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 54,
+	"AffectationId": 18,
+	"Text": "CB*4485",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(54)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 55,
+	"AffectationId": 18,
+	"Text": "CB*9854",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(55)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 56,
+	"AffectationId": 5,
+	"Text": "Carrefour",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(56)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 57,
+	"AffectationId": 5,
+	"Text": "Auchan",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(57)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 58,
+	"AffectationId": 5,
+	"Text": "Distrifives",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(58)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 59,
+	"AffectationId": 5,
+	"Text": "LIDL",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(59)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 60,
+	"AffectationId": 4,
+	"Text": "VISEO",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(60)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 61,
+	"AffectationId": 7,
+	"Text": "PRLV SEPA EDF",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(61)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 62,
+	"AffectationId": 9,
+	"Text": "CORA",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(62)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 63,
+	"AffectationId": 15,
+	"Text": "CB*0294",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(63)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 64,
+	"AffectationId": 18,
+	"Text": "CB*3151",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(64)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 65,
+	"AffectationId": 4,
+	"Text": "BANQUE ACCORD",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(65)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 66,
+	"AffectationId": 18,
+	"Text": "**8522",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(66)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}, {
+	"id": 67,
+	"AffectationId": 13,
+	"Text": "SEPA FREE",
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Cleaffectations(67)",
+		"type": "NODATASERVER.Cleaffectation"
+	}
+}]

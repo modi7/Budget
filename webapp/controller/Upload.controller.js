@@ -5,9 +5,7 @@ sap.ui.define([
 	"sap/m/MessageBox"
 ], function(Controller, JSONModel, History, MessageBox) {
 	"use strict";
-
 	return Controller.extend("budget.controller.Upload", {
-
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
@@ -19,17 +17,14 @@ sap.ui.define([
 				busy: false,
 				id: null,
 				month: null,
-				year: null
+				year: null,
+				ecritures: []
 			});
 			this.setModel(oViewModel, "uploadView");
-
 			this._reader = new FileReader();
 			this._reader.addEventListener("load", this.onReaderLoad.bind(this), false);
-
 		},
-
 		onCancel: function() {
-
 			MessageBox.confirm("Are you sur you want to Cancel?", {
 				//	styleClass: oComponent.getContentDensityClass(),
 				onClose: function(oAction) {
@@ -40,19 +35,15 @@ sap.ui.define([
 					}
 				}.bind(this)
 			});
-
 		},
-
 		_navBack: function() {
 			/*			var sPreviousHash = History.getInstance().getPreviousHash();
 						if (sPreviousHash !== undefined) {
 							history.go(-1);
 						} else {*/
 			//this.getRouter().navTo("object", {}, true);
-			this.getRouter().getTargets().display("object");
-			// }
+			this.getRouter().getTargets().display("object"); // }
 		},
-
 		_onUpload: function(oEvent) {
 			var oData = oEvent.getParameter("data");
 			var oModel = this.getModel("uploadView");
@@ -62,64 +53,77 @@ sap.ui.define([
 			oModel.setProperty("/busy", true);
 			this._reader.readAsText(oData.file);
 			/*			
-						var oContext = this.getModel().createEntry("Ecritures", {
-									success: this._fnEntityCreated.bind(this),
-									error: this._fnEntityCreationFailed.bind(this),
-							properties: {
-								CompteId: oData.id,
-								Month: oData.month,
-								Year: oData.year
-							}
-						});
-						this.getView().setBindingContext(oContext);
-			  */
+								var oContext = this.getModel().createEntry("Ecritures", {
+											success: this._fnEntityCreated.bind(this),
+											error: this._fnEntityCreationFailed.bind(this),
+									properties: {
+										CompteId: oData.id,
+										Month: oData.month,
+										Year: oData.year
+									}
+								});
+								this.getView().setBindingContext(oContext);
+					  */
 		},
-
 		onReaderLoad: function(oEvent) {
-			
 			if (oEvent.returnValue) {
-			
-			var oModel = this.getModel("uploadView");
-			
+				var oModel = this.getModel("uploadView");
+				var aEcritures = [];
 				var sContents = oEvent.target.result;
 				var aContents = sContents.split("\r\n");
-
-           var oTable = this.byId("uploadTable");
-            
-            aContents.forEach(function(item, index){ 
-                
-               var aZones = item.split(";");
-                var toto = new sap.ui.table.Row();
-                		var oContext = this.getModel().createEntry("Ecritures", {
-							//		success: this._fnEntityCreated.bind(this),
-							//		error: this._fnEntityCreationFailed.bind(this),
-							properties: {
-								CompteId: oModel.getProperty("/id"),
-								Month: oModel.getProperty("/month"),
-								Year: oModel.getProperty("/year"),
-								Description: "Test " + index
-							}
+				var oTable = this.byId("uploadTable");
+				aContents.forEach(function(item, index) {
+					if (index > 0 && item.length > 0) {
+						item = item.replace(new RegExp("\"", "g"), "");
+						item = item.replace(new RegExp("\r", "g"), "");
+						item = item.replace(new RegExp(",", "g"), ".");
+						var aColumns = item.split(";");
+						var aDate = aColumns[0].trim().split("/");
+						aEcritures.push({
+							CompteId: oModel.getProperty("/id"),
+							Month: oModel.getProperty("/month"),
+							Year: oModel.getProperty("/year"),
+							Date: new Date(aDate[2], aDate[1] - 1, aDate[0]),
+							AffectationId: this._getCC(aColumns[2]),
+							Debit: aColumns[6].indexOf("-") != -1 ? Math.abs(parseFloat(aColumns[6])) : null,
+							Credit: aColumns[6].indexOf("-") === -1 ? Math.abs(parseFloat(aColumns[6])) : null,
+							Description: aColumns[2],
+							Carte: null
 						});
-						try {
-					toto.setBindingContext(oContext);
-					oTable.addAggregation("rows", toto);		
-						} catch (err) {
-						    console.log(err);
-						}
-						
-						
-                        //oTable.addRow(toto);
-            }, this);
- 			
- 			this.getModel().updateBindings();
-
-}
-			this.getModel("uploadView").setProperty("/busy", false);
-			//	var contents = event.target.result;
+					}
+				}, this);
+				oModel.setProperty("/ecritures", aEcritures);
+				oModel.updateBindings();
+				jQuery.sap.delayedCall(0, this, function() {
+					oTable.setVisibleRowCount(aEcritures.length > 20 ? 20 : aEcritures.length);
+				});
+			}
+			this.getModel("uploadView").setProperty("/busy", false); //	var contents = event.target.result;
 			//	var myTable = contents.split("\n");
-            
-		}
-
+		},
+		onDeletePress: function() {
+			var oTable = this.byId("uploadTable");
+			var oModel = this.getModel("uploadView");
+			var aEcritures = oModel.getProperty("/ecritures");
+			var aIndex = oTable.getSelectedIndices();
+			aIndex.forEach(function(item, index) {
+				aEcritures = aEcritures.splice(item - index, 1);
+			});
+			oModel.setProperty("/ecritures", aEcritures);
+			oModel.updateBindings();
+			oTable.removeSelectionInterval(0, aEcritures.length);
+			oTable.setVisibleRowCount(aEcritures.length > 20 ? 20 : aEcritures.length);
+		},
+		_getCC: function(description) {
+			var aCle = this.getModel("appView").getProperty("/Cleaffectations");
+			var iCc = aCle.find(function(item) {
+				return description.toUpperCase().indexOf(item.Text.toUpperCase()) != -1;
+			});
+			if (iCc) {
+				return iCc.AffectationId;
+			}
+			return 6;
+		},
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
 		 * (NOT before the first rendering! onInit() is used for that one!).
@@ -128,7 +132,6 @@ sap.ui.define([
 		//	onBeforeRendering: function() {
 		//
 		//	},
-
 		/**
 		 * Called when the View has been rendered (so its HTML is part of the document). Post-rendering manipulations of the HTML could be done here.
 		 * This hook is the same one that SAPUI5 controls get after being rendered.
@@ -137,7 +140,6 @@ sap.ui.define([
 		//	onAfterRendering: function() {
 		//
 		//	},
-
 		/**
 		 * Called when the Controller is destroyed. Use this one to free resources and finalize activities.
 		 * @memberOf budget.view.Upload
@@ -146,6 +148,26 @@ sap.ui.define([
 		//
 		//	}
 
-	});
+		/**
+		 *@memberOf budget.controller.Upload
+		 */
+		onSavePress: function() {
+			//This code was generated by the layout editor.
 
+			var oModel = this.getModel("uploadView");
+			var aEcritures = oModel.getProperty("/ecritures");
+
+			aEcritures.forEach(function() {
+				var oContext = this.getModel().createEntry("Ecritures", {
+					//success: this._fnEntityCreated.bind(this),
+					//error: this._fnEntityCreationFailed.bind(this),
+					properties: item
+				});
+			}, this);
+			
+			this.getModel().submitChanges();
+			this._navBack();
+			
+		}
+	});
 });

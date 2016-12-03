@@ -1,37 +1,32 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:table="sap.ui.table" controllerName="budget.controller.Upload">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:table="sap.ui.table" controllerName="budget.controller.Upload">
 	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="__page1" busy="{uploadView>/busy}">
 		<sap.m.semantic:cancelAction>
 			<sap.m.semantic:CancelAction press="onCancel"/>
 		</sap.m.semantic:cancelAction>
 		<sap.m.semantic:content>
-			<table:Table id="uploadTable" selectionMode="MultiToggle" enableSelectAll="false" enableBusyIndicator="true" visibleRowCount="5"
-				class="tableStyle" rowSelectionChange="onSelectionTableChange" selectionBehavior="RowSelector" 
-				visibleRowCountMode="Fixed">
+			<table:Table id="uploadTable" selectionMode="MultiToggle" enableSelectAll="false" enableBusyIndicator="true" class="newTableStyle" rows="{uploadView>/ecritures}" rowSelectionChange="onSelectionTableChange" selectionBehavior="RowSelector" visibleRowCountMode="Interactive" minAutoRowCount="1" visibleRowCount="0">
 				<!--<table:noData>
 					<BusyIndicator class="sapUiMediumMargin"/>
-				</table:noData>
+				</table:noData>  -->
 				<table:toolbar>
 					<Toolbar>
 						<Title id="title" text="Ecritures"/>
 						<ToolbarSpacer/>
-						<Button icon="sap-icon://add" tooltip="Ajouter une ecriture" press="onAddPress"/>
-						<Button icon="sap-icon://less" tooltip="supprimer ecriture" type="Transparent" visible="{objectView>/deleteVisible}" press="onDeletePress"/>
+						<Button icon="sap-icon://less" tooltip="supprimer ecriture" type="Transparent" press="onDeletePress"/>
 					</Toolbar>
-				</table:toolbar> -->
+				</table:toolbar>
 				<table:columns>
-					<table:Column sortProperty="Date" filterProperty="Date" autoResizable="true" width="7rem">
+					<table:Column sortProperty="Date" filterProperty="Date" autoResizable="true" width="9rem">
 						<Label text="Date"/>
 						<table:template>
-							<DatePicker width="100%" secondaryCalendarType="Gregorian" id="newDate"
-								value="{path:'Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}"/>
-							<Text text="{path:'Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}"/>
+							<DatePicker width="100%" secondaryCalendarType="Gregorian" value="{path:'uploadView>Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}"/>
+							<!--<Text text="{path:'uploadView>Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}"/>-->
 						</table:template>
 					</table:Column>
-					<table:Column sortProperty="AffectationId" filterProperty="AffectationId" autoResizable="true" width="12rem">
+					<table:Column autoResizable="true" width="12rem">
 						<Label text="Affectation"/>
 						<table:template>
-							<ComboBox items="{appView>/Affectations}" maxWidth="" selectedKey="{AffectationId}" selectionChange="onSelectionChange">
+							<ComboBox items="{appView>/Affectations}" maxWidth="" selectedKey="{uploadView>AffectationId}" selectionChange="onSelectionChange">
 								<items>
 									<core:ListItem text="{appView>Description}" key="{appView>id}"/>
 								</items>
@@ -41,25 +36,29 @@
 					<table:Column sortProperty="Description" filterProperty="Description" autoResizable="true">
 						<Label text="Description"/>
 						<table:template>
-							<Text text="{Description}"/>
+							<Text text="{uploadView>Description}"/>
 						</table:template>
 					</table:Column>
 					<table:Column filterProperty="Debit" width="9rem">
 						<Label text="Debit"/>
 						<table:template>
 							<!--<u:Currency value="{ path: 'Debit', type: 'sap.ui.model.type.Float' }"/>-->
-							<ObjectNumber number="{ path: 'Debit', formatter: '.formatter.numberUnit' }" textAlign="End"/>
+							<ObjectNumber number="{ path: 'uploadView>Debit' }" textAlign="End"/>
 						</table:template>
 					</table:Column>
-					<table:Column filterProperty="Credit" width="9rem">
+					<table:Column width="9rem">
 						<Label text="Credit"/>
 						<table:template>
-							<ObjectNumber number="{ path: 'Credit', formatter: '.formatter.numberUnit' }" textAlign="End"/>
+							<ObjectNumber number="{ path: 'uploadView>Credit'}" textAlign="End"/>
+							
 							<!--<u:Currency value="{ path: 'Credit', type: 'sap.ui.model.type.Float' }" />-->
 						</table:template>
 					</table:Column>
 				</table:columns>
 			</table:Table>
 		</sap.m.semantic:content>
+	<sap.m.semantic:saveAction>
+	    <sap.m.semantic:SaveAction id="__action1" press="onSavePress"/>
+	</sap.m.semantic:saveAction>
 	</sap.m.semantic:FullscreenPage>
 </mvc:View>
