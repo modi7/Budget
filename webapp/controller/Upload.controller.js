@@ -75,7 +75,7 @@ sap.ui.define([
 				aContents.forEach(function(item, index) {
 					if (index > 0 && item.length > 0) {
 						item = item.replace(new RegExp("\"", "g"), "");
-						item = item.replace(new RegExp("\r", "g"), "");
+						item = item.replace(new RegExp("\\r", "g"), "");
 						item = item.replace(new RegExp(",", "g"), ".");
 						var aColumns = item.split(";");
 						var aDate = aColumns[0].trim().split("/");
@@ -88,7 +88,7 @@ sap.ui.define([
 							Debit: aColumns[6].indexOf("-") != -1 ? Math.abs(parseFloat(aColumns[6])) : null,
 							Credit: aColumns[6].indexOf("-") === -1 ? Math.abs(parseFloat(aColumns[6])) : null,
 							Description: aColumns[2],
-							Carte: null
+							Carte: aColumns[8] === "CARTE PREMIER" ? "O" : null
 						});
 					}
 				}, this);
@@ -156,18 +156,30 @@ sap.ui.define([
 
 			var oModel = this.getModel("uploadView");
 			var aEcritures = oModel.getProperty("/ecritures");
+			var iLength = aEcritures.length;
+			aEcritures.forEach(function(item, index) {
+				if (iLength === index) {
+					this.getModel().createEntry("Ecritures", {
+						//success: this._addSuccess.bind(this),
+						//error: this._fnEntityCreationFailed.bind(this),
+						properties: item
+					});
+				} else {
+					this.getModel().createEntry("Ecritures", {
+						properties: item
+					});
+				}
 
-			aEcritures.forEach(function(item) {
-				var oContext = this.getModel().createEntry("Ecritures", {
-					//success: this._fnEntityCreated.bind(this),
-					//error: this._fnEntityCreationFailed.bind(this),
-					properties: item
-				});
 			}, this);
-			
+
 			this.getModel().submitChanges();
+			this._addSuccess();
+		},
+
+		_addSuccess: function() {
+			this.getModel().refresh();
 			this._navBack();
-			
 		}
+
 	});
 });

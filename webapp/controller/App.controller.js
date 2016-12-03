@@ -76,7 +76,7 @@ sap.ui.define([
 				var oModel = this.getOwnerComponent().getModel();
 				oModel.read("/Affectations", {success: this._onSuccess.bind(this) });
 				oModel.read("/Cleaffectations", {success: this._onSuccessAff.bind(this) });
-				
+				oModel.setRefreshAfterChange(false);
 			};
 
 			this.getOwnerComponent().getModel().metadataLoaded().

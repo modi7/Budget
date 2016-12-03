@@ -1,10 +1,13 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:table="sap.ui.table" controllerName="budget.controller.Upload">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:table="sap.ui.table" controllerName="budget.controller.Upload">
 	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="__page1" busy="{uploadView>/busy}">
 		<sap.m.semantic:cancelAction>
 			<sap.m.semantic:CancelAction press="onCancel"/>
 		</sap.m.semantic:cancelAction>
 		<sap.m.semantic:content>
-			<table:Table id="uploadTable" selectionMode="MultiToggle" enableSelectAll="false" enableBusyIndicator="true" class="newTableStyle" rows="{uploadView>/ecritures}" rowSelectionChange="onSelectionTableChange" selectionBehavior="RowSelector" visibleRowCountMode="Interactive" minAutoRowCount="1" visibleRowCount="0">
+			<table:Table id="uploadTable" selectionMode="MultiToggle" enableSelectAll="false" enableBusyIndicator="true" class="newTableStyle"
+				rows="{uploadView>/ecritures}" rowSelectionChange="onSelectionTableChange" selectionBehavior="RowSelector" visibleRowCountMode="Interactive"
+				minAutoRowCount="1" visibleRowCount="0">
 				<!--<table:noData>
 					<BusyIndicator class="sapUiMediumMargin"/>
 				</table:noData>  -->
@@ -19,7 +22,8 @@
 					<table:Column sortProperty="Date" filterProperty="Date" autoResizable="true" width="9rem">
 						<Label text="Date"/>
 						<table:template>
-							<DatePicker width="100%" secondaryCalendarType="Gregorian" value="{path:'uploadView>Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}"/>
+							<DatePicker width="100%" secondaryCalendarType="Gregorian"
+								value="{path:'uploadView>Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}"/>
 							<!--<Text text="{path:'uploadView>Date', type: 'sap.ui.model.type.Date', formatOptions: { style: 'medium'}}"/>-->
 						</table:template>
 					</table:Column>
@@ -50,15 +54,14 @@
 						<Label text="Credit"/>
 						<table:template>
 							<ObjectNumber number="{ path: 'uploadView>Credit'}" textAlign="End"/>
-							
 							<!--<u:Currency value="{ path: 'Credit', type: 'sap.ui.model.type.Float' }" />-->
 						</table:template>
 					</table:Column>
 				</table:columns>
 			</table:Table>
 		</sap.m.semantic:content>
-	<sap.m.semantic:saveAction>
-	    <sap.m.semantic:SaveAction id="__action1" press="onSavePress"/>
-	</sap.m.semantic:saveAction>
+		<sap.m.semantic:saveAction>
+			<sap.m.semantic:SaveAction id="__action1" press="onSavePress"/>
+		</sap.m.semantic:saveAction>
 	</sap.m.semantic:FullscreenPage>
 </mvc:View>
