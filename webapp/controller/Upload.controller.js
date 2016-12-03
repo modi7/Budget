@@ -107,7 +107,7 @@ sap.ui.define([
 			var aEcritures = oModel.getProperty("/ecritures");
 			var aIndex = oTable.getSelectedIndices();
 			aIndex.forEach(function(item, index) {
-				aEcritures = aEcritures.splice(item - index, 1);
+				aEcritures.splice(item - index, 1);
 			});
 			oModel.setProperty("/ecritures", aEcritures);
 			oModel.updateBindings();
@@ -157,7 +157,7 @@ sap.ui.define([
 			var oModel = this.getModel("uploadView");
 			var aEcritures = oModel.getProperty("/ecritures");
 
-			aEcritures.forEach(function() {
+			aEcritures.forEach(function(item) {
 				var oContext = this.getModel().createEntry("Ecritures", {
 					//success: this._fnEntityCreated.bind(this),
 					//error: this._fnEntityCreationFailed.bind(this),
