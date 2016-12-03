@@ -85,8 +85,8 @@ sap.ui.define([
 							Year: oModel.getProperty("/year"),
 							Date: new Date(aDate[2], aDate[1] - 1, aDate[0]),
 							AffectationId: this._getCC(aColumns[2]),
-							Debit: aColumns[6].indexOf("-") != -1 ? Math.abs(parseFloat(aColumns[6])) : null,
-							Credit: aColumns[6].indexOf("-") === -1 ? Math.abs(parseFloat(aColumns[6])) : null,
+							Debit: aColumns[6].indexOf("-") !== -1 ? Math.abs(parseFloat(aColumns[6].replace(/\s/g, ""))) : null,
+							Credit: aColumns[6].indexOf("-") === -1 ? Math.abs(parseFloat(aColumns[6].replace(/\s/g, ""))) : null,
 							Description: aColumns[2],
 							Carte: aColumns[8] === "CARTE PREMIER" ? "O" : null
 						});
