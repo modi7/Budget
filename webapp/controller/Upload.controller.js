@@ -24,7 +24,7 @@ sap.ui.define([
 			this.setModel(oViewModel, "uploadView");
 
 			this._reader = new FileReader();
-			this._reader.addEventListener("load", this.onReaderLoad.bind(this), false)
+			this._reader.addEventListener("load", this.onReaderLoad.bind(this), false);
 
 		},
 
@@ -76,16 +76,48 @@ sap.ui.define([
 		},
 
 		onReaderLoad: function(oEvent) {
-			var test = "";
+			
 			if (oEvent.returnValue) {
+			
+			var oModel = this.getModel("uploadView");
+			
 				var sContents = oEvent.target.result;
 				var aContents = sContents.split("\r\n");
-			}
 
+           var oTable = this.byId("uploadTable");
+            
+            aContents.forEach(function(item, index){ 
+                
+               var aZones = item.split(";");
+                var toto = new sap.ui.table.Row();
+                		var oContext = this.getModel().createEntry("Ecritures", {
+							//		success: this._fnEntityCreated.bind(this),
+							//		error: this._fnEntityCreationFailed.bind(this),
+							properties: {
+								CompteId: oModel.getProperty("/id"),
+								Month: oModel.getProperty("/month"),
+								Year: oModel.getProperty("/year"),
+								Description: "Test " + index
+							}
+						});
+						try {
+					toto.setBindingContext(oContext);
+					oTable.addAggregation("rows", toto);		
+						} catch (err) {
+						    console.log(err);
+						}
+						
+						
+                        //oTable.addRow(toto);
+            }, this);
+ 			
+ 			this.getModel().updateBindings();
+
+}
 			this.getModel("uploadView").setProperty("/busy", false);
 			//	var contents = event.target.result;
 			//	var myTable = contents.split("\n");
-
+            
 		}
 
 		/**

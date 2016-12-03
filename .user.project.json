@@ -7,8 +7,8 @@
       "workspace": "withoutWorkspace",
       "urlParameters": [
         {
-          "paramName": "",
-          "paramValue": "",
+          "paramName": "sap-ui-debug",
+          "paramValue": "true",
           "paramActive": false
         },
         {
@@ -31,7 +31,7 @@
         "id": 87567847,
         "runnerId": "webapprunner",
         "displayName": "App (Mock Server)",
-        "lastRunTimeStamp": 1480460391476
+        "lastRunTimeStamp": 1480533379420
       }
     },
     {
@@ -58,8 +58,7 @@
       "_metadata": {
         "id": 3635224,
         "runnerId": "webapprunner",
-        "displayName": "OPA Tests",
-        "lastRunTimeStamp": 1480246598185
+        "displayName": "OPA Tests"
       }
     },
     {
@@ -85,8 +84,7 @@
       "_metadata": {
         "id": 8735167,
         "runnerId": "webapprunner",
-        "displayName": "Unit Tests",
-        "lastRunTimeStamp": 1480246387938
+        "displayName": "Unit Tests"
       }
     },
     {
@@ -113,8 +111,7 @@
       "_metadata": {
         "id": 87567846,
         "runnerId": "webapprunner",
-        "displayName": "App",
-        "lastRunTimeStamp": 1480168981118
+        "displayName": "App"
       }
     },
     {
@@ -169,8 +166,7 @@
       "_metadata": {
         "id": 594940,
         "runnerId": "fiorirunner",
-        "displayName": "Run Component.js",
-        "lastRunTimeStamp": 1480182963790
+        "displayName": "Run Component.js"
       }
     }
   ]
