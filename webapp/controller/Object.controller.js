@@ -24,7 +24,6 @@ sap.ui.define([
 			// Model used to manipulate control states. The chosen values make sure,
 			// detail page is busy indication immediately so there is no break in
 			// between the busy indication for loading the view's meta data
-			this.getRouter().getTargets().getTarget("object").attachDisplay(null, this._onObject, this);
 			var iOriginalBusyDelay, dDate = new Date(),
 				oViewModel = new JSONModel({
 					busy: true,
@@ -44,38 +43,19 @@ sap.ui.define([
 				iconDebitCredit: "sap-icon://less"
 			});
 			this.setModel(this._oDialogModel, "newView");
+			
 			this.getRouter().getRoute("object").attachPatternMatched(this._onObjectMatched, this);
 			// Store original busy indicator delay, so it can be restored later on
 			iOriginalBusyDelay = this.getView().getBusyIndicatorDelay();
+			
 			this.getOwnerComponent().getModel().metadataLoaded().then(function() {
 				// Restore original busy indicator delay for the object view
 				oViewModel.setProperty("/delay", iOriginalBusyDelay);
 			});
-			/*			var oTable = this.byId("table");
-						// var oChart = this.byId("vizData");
-						var oFilter = new Filter({
-							filters: [
-								new sap.ui.model.Filter({
-									path: "Year",
-									operator: "EQ",
-									value1: dDate.getFullYear()
-								}),
-								new sap.ui.model.Filter({
-									path: "Month",
-									operator: "EQ",
-									value1: dDate.getMonth() + 1
-								})
-							],
-							and: true
-						});
-						this.oBusyIndicator = oTable.getNoData();
-						// this.initBindingEventHandler();
-						oTable.bindRows({
-							path: "Ecritures",
-							filters: oFilter,
-							templateShareable: true
-						}); */
-		},
+			
+			var oTable = this.byId("table");
+			this.oBusyIndicator = oTable.getNoData();
+					},
 
 		_filterTable: function() {
 			var oFilter = new Filter({
@@ -249,11 +229,11 @@ sap.ui.define([
 
 			aIndex.forEach(function(item, index) {
 				if (iLength === index) {
-					oModel.remove(aRows[item].getBindingContext().getPath(), {
+					oModel.remove(aRows[item - index].getBindingContext().getPath(), {
 						success: this._deleteSuccess.bind(this)
 					});
 				} else {
-					oModel.remove(aRows[item].getBindingContext().getPath());
+					oModel.remove(aRows[item - index].getBindingContext().getPath());
 				}
 
 			}, this);
@@ -289,6 +269,7 @@ sap.ui.define([
 		 * @private
 		 */
 		_onObjectMatched: function(oEvent) {
+		    this.byId("fileUploader").setValue(null);
 			var sObjectId = oEvent.getParameter("arguments").objectId;
 			var oViewModel = this.getModel("objectView");
 			oViewModel.setProperty("/year", new Date().getFullYear());
@@ -352,7 +333,7 @@ sap.ui.define([
 				var oData = oEvent.getParameter("data");
 				oTable.setNoData(null); //Use default again ("No Data" in case no data is available)
 				if (oData) {
-					oTable.setVisibleRowCount(oData.results.length > 20 ? 20 : oData.results.length > 0 ? oData.results.length : 1);
+					oTable.setVisibleRowCount(oData.results.length > 15 ? 15 : oData.results.length > 0 ? oData.results.length : 1);
 				}
 			});
 		},
@@ -392,11 +373,7 @@ sap.ui.define([
 				}
 			}
 			return aControls;
-		},
-
-		_onObject: function() {
-				this.byId("fileUploader").setValue(null);
-			}
+		}
 			/**
 			 *@memberOf budget.controller.Object
 			 */

@@ -64,7 +64,7 @@
 			<sap.ui.layout:Grid xmlns:sap.ui.layout="sap.ui.layout" id="__grid0" content="{/Balance}" position="Center" hSpacing="1" vSpacing="2"
 				defaultIndent="XL1 L1 M2 S6" class="tilesStyle" defaultSpan="XL4 L4 M8 S12">
 				<sap.ui.layout:content>
-					<ObjectListItem title="{Name}" number="{ path: 'Solde', formatter: '.formatter.numberUnit' }" numberUnit="€" intro="{Description}"
+					<ObjectListItem title="{Name}" number="{ path: 'Solde', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" intro="{Description}"
 						icon="sap-icon://loan" markFavorite="false" markFlagged="false" showMarkers="false" type="Active" class="myCustomTile" press="onTilePress"
 						numberState="{path:'Solde', formatter:'.formatter.soldeState'}"/>
 				</sap.ui.layout:content>
