@@ -74,7 +74,7 @@ sap.ui.define([
 				oViewModel.setProperty("/busy", false);
 				oViewModel.setProperty("/delay", iOriginalBusyDelay);
 				var oModel = this.getOwnerComponent().getModel();
-				oModel.read("/Affectations", {success: this._onSuccess.bind(this) });
+				oModel.read("/Affectations", {success: this._onSuccess.bind(this), sorter: new sap.ui.model.Sorter("Description", false) });
 				oModel.read("/Cleaffectations", {success: this._onSuccessAff.bind(this) });
 				oModel.setRefreshAfterChange(false);
 			};
