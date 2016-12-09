@@ -1,0 +1,61 @@
+<core:FragmentDefinition xmlns:core='sap.ui.core'>
+	<tnt:ToolHeader xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:tnt="sap.tnt">
+		<Button xmlns="sap.m" icon="sap-icon://menu2" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow"/>
+			</layoutData>
+		</Button>
+		<ToolbarSpacer xmlns="sap.m" width="20px"/>
+		<Button xmlns="sap.m" text="File" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Low"/>
+			</layoutData>
+		</Button>
+		<Button xmlns="sap.m" text="Edit" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Low"/>
+			</layoutData>
+		</Button>
+		<Button xmlns="sap.m" text="View" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Low"/>
+			</layoutData>
+		</Button>
+		<Button xmlns="sap.m" text="Navigate" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Low"/>
+			</layoutData>
+		</Button>
+		<Button xmlns="sap.m" text="Code" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Low"/>
+			</layoutData>
+		</Button>
+		<Button xmlns="sap.m" text="Refactor" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Low"/>
+			</layoutData>
+		</Button>
+		<Button xmlns="sap.m" text="Run" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Low"/>
+			</layoutData>
+		</Button>
+		<Button xmlns="sap.m" text="Tools" type="Transparent">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="Low"/>
+			</layoutData>
+		</Button>
+		<tnt:ToolHeaderUtilitySeparator/>
+		<ToolbarSpacer xmlns="sap.m">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow" minWidth="20px"/>
+			</layoutData>
+		</ToolbarSpacer>
+		<Button xmlns="sap.m" text="Alan Smith" type="Transparent" press="handleUserNamePress">
+			<layoutData>
+				<OverflowToolbarLayoutData priority="NeverOverflow"/>
+			</layoutData>
+		</Button>
+	</tnt:ToolHeader>
+</core:FragmentDefinition>

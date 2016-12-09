@@ -1,72 +1,12 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:tnt="sap.tnt"
-	controllerName="budget.controller.Worklist">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:tnt="sap.tnt" controllerName="budget.controller.Worklist">
 	<semantic:FullscreenPage id="page" showNavButton="false" showFooter="false" title="{i18n>worklistViewTitle}">
-		<semantic:content>
-			<!--<tnt:ToolHeader>
-        <Button icon="sap-icon://menu2" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="NeverOverflow" />
-            </layoutData>
-        </Button>
-        <ToolbarSpacer width="20px" />
-        <Button text="File" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="Low" />
-            </layoutData>
-        </Button>
-        <Button text="Edit" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="Low" />
-            </layoutData>
-        </Button>
-        <Button text="View" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="Low" />
-            </layoutData>
-        </Button>
-        <Button text="Navigate" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="Low" />
-            </layoutData>
-        </Button>
-        <Button text="Code" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="Low" />
-            </layoutData>
-        </Button>
-        <Button text="Refactor" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="Low" />
-            </layoutData>
-        </Button>
-        <Button text="Run" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="Low" />
-            </layoutData>
-        </Button>
-        <Button text="Tools" type="Transparent">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="Low" />
-            </layoutData>
-        </Button>
-        <tnt:ToolHeaderUtilitySeparator />
-        <ToolbarSpacer>
-            <layoutData>
-                <OverflowToolbarLayoutData priority="NeverOverflow" minWidth="20px" />
-            </layoutData>
-        </ToolbarSpacer>
-        <Button text="Alan Smith" type="Transparent" press="handleUserNamePress">
-            <layoutData>
-                <OverflowToolbarLayoutData priority="NeverOverflow" />
-            </layoutData>
-        </Button>
-    </tnt:ToolHeader>        -->
-			<sap.ui.layout:Grid xmlns:sap.ui.layout="sap.ui.layout" id="__grid0" content="{/Balance}" position="Center" hSpacing="1" vSpacing="2"
-				defaultIndent="XL1 L1 M2 S6" class="tilesStyle" defaultSpan="XL4 L4 M8 S12">
+		<semantic:content>      
+
+			<core:Fragment xmlns:core="sap.ui.core" fragmentName="budget.fragment.ToolHeader" type="XML" id="__header1"/>      
+
+			<sap.ui.layout:Grid xmlns:sap.ui.layout="sap.ui.layout" id="__grid0" content="{/Balance}" position="Center" hSpacing="1" vSpacing="2" defaultIndent="XL1 L1 M2 S6" class="tilesStyle" defaultSpan="XL4 L4 M8 S12">
 				<sap.ui.layout:content>
-					<ObjectListItem title="{Name}" number="{ path: 'Solde', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" intro="{Description}"
-						icon="sap-icon://loan" markFavorite="false" markFlagged="false" showMarkers="false" type="Active" class="myCustomTile" press="onTilePress"
-						numberState="{path:'Solde', formatter:'.formatter.soldeState'}"/>
+					<ObjectListItem title="{Name}" number="{ path: 'Solde', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" intro="{Description}" icon="sap-icon://loan" markFavorite="false" markFlagged="false" showMarkers="false" type="Active" class="myCustomTile" press="onTilePress" numberState="{path:'Solde', formatter:'.formatter.soldeState'}"/>
 				</sap.ui.layout:content>
 			</sap.ui.layout:Grid>
 			<!--			<TileContainer allowAdd="true" id="__container0" tiles="{/Balance}" class="tilesStyle" width="60%">

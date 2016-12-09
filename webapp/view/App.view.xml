@@ -3,10 +3,10 @@
 	controllerName="budget.controller.App"
 	displayBlock="true"
 	xmlns="sap.m"
-	xmlns:tnt="sap.tnt">
+	>
 
 	<App id="app"
 		 busy="{appView>/busy}"
 		 busyIndicatorDelay="{appView>/delay}"/>
-
+  
 </mvc:View>
