@@ -74,8 +74,18 @@ sap.ui.define([
 				oViewModel.setProperty("/busy", false);
 				oViewModel.setProperty("/delay", iOriginalBusyDelay);
 				var oModel = this.getOwnerComponent().getModel();
-				oModel.read("/Affectations", {success: this._onSuccess.bind(this), sorter: new sap.ui.model.Sorter("Description", false) });
-				oModel.read("/Cleaffectations", {success: this._onSuccessAff.bind(this) });
+				var oSorter = new sap.ui.model.Sorter({
+					path: 'Description',
+					descending: false
+				});
+				oModel.read(
+				"/Affectations",
+				{	success: this._onSuccess.bind(this),
+					sorter: oSorter
+				});
+				oModel.read("/Cleaffectations", {
+					success: this._onSuccessAff.bind(this)
+				});
 				oModel.setRefreshAfterChange(false);
 			};
 
@@ -85,15 +95,15 @@ sap.ui.define([
 			// apply content density mode to root view
 			this.getView().addStyleClass("sapUiSizeCompact");
 		},
-		
-		_onSuccess: function(response){
+
+		_onSuccess: function(response) {
 			this.getModel("appView").setProperty("/Affectations", response.results);
 		},
-		
-		_onSuccessAff: function(response){
+
+		_onSuccessAff: function(response) {
 			this.getModel("appView").setProperty("/Cleaffectations", response.results);
-		}		
-		
+		}
+
 	});
 
 });
