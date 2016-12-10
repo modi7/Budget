@@ -59,6 +59,15 @@
 							<!--<u:Currency value="{ path: 'Credit', type: 'sap.ui.model.type.Float' }" />-->
 						</table:template>
 					</table:Column>
+					<table:Column width="5rem" hAlign="Center">
+						<Label text="Carte"/>
+						<table:template>
+							<core:Icon src="{path:'uploadView>Carte', formatter:'.formatter.isCard' }" tooltip="Carte de Credit" size="1.5rem" color="#FFD700"/>
+						</table:template>
+					</table:Column>					
+					
+					
+
 				</table:columns>
 			</table:Table>
 		</sap.m.semantic:content>

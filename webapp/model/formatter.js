@@ -38,7 +38,15 @@ sap.ui.define([], function() {
 			return sap.ui.core.ValueState.Error;
 			// 
 
+		},
+		
+		isCard: function(sValue){
+			if(sValue){
+				return "sap-icon://credit-card";
+			}
+			return null;
 		}
+		
 
 	};
 

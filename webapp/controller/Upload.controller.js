@@ -2,10 +2,12 @@ sap.ui.define([
 	"budget/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/routing/History",
+		"budget/model/formatter",
 	"sap/m/MessageBox"
-], function(Controller, JSONModel, History, MessageBox) {
+], function(Controller, JSONModel, History,formatter, MessageBox) {
 	"use strict";
 	return Controller.extend("budget.controller.Upload", {
+				formatter: formatter,
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
@@ -53,6 +55,8 @@ sap.ui.define([
 							history.go(-1);
 						} else {*/
 			//this.getRouter().navTo("object", {}, true);
+							var oModel = this.getModel("uploadView");
+			oModel.setProperty("/ecritures", []);
 			this.getRouter().getTargets().display("object"); // }
 		},
 
@@ -179,6 +183,7 @@ sap.ui.define([
 			var aEcritures = oModel.getProperty("/ecritures");
 			var iLength = aEcritures.length;
 			aEcritures.forEach(function(item, index) {
+					item.Credit = item.Credit > 0.00 && item.Debit < 0.00  ? null : item.Credit;
 				if (iLength === index) {
 					this.getModel().createEntry("Ecritures", {
 						//success: this._addSuccess.bind(this),
