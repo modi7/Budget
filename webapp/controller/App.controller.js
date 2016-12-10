@@ -81,7 +81,7 @@ sap.ui.define([
 				oModel.read(
 				"/Affectations",
 				{	success: this._onSuccess.bind(this),
-					sorter: oSorter
+					sorters: [oSorter]
 				});
 				oModel.read("/Cleaffectations", {
 					success: this._onSuccessAff.bind(this)

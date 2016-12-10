@@ -334,7 +334,7 @@ sap.ui.define([
 				var oData = oEvent.getParameter("data");
 				oTable.setNoData(null); //Use default again ("No Data" in case no data is available)
 				if (oData) {
-					oTable.setVisibleRowCount(oData.results.length > 15 ? 15 : oData.results.length > 0 ? oData.results.length : 1);
+					oTable.setVisibleRowCount(oData.results.length > 20 ? 20 : oData.results.length > 0 ? oData.results.length : 1);
 				}
 			});
 		},
