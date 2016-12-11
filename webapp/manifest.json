@@ -82,7 +82,8 @@
 					"metadataUrlParams": {
 						"sap-documentation": "heading"
 					},
-					"defaultBindingMode": "TwoWay"
+					"defaultBindingMode": "TwoWay",
+					"defaultUpdateMethod": "PUT"
 				},
 				"preload": true
 			}

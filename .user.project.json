@@ -25,7 +25,35 @@
         "id": 87567846,
         "runnerId": "webapprunner",
         "displayName": "App",
-        "lastRunTimeStamp": 1481472660106
+        "lastRunTimeStamp": 1481475142619
+      }
+    },
+    {
+      "filePath": "/Budget/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [
+        {
+          "paramName": "sap-ui-debug",
+          "paramValue": "true",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "hashParameter": "",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 1,
+      "_metadata": {
+        "id": 9629176,
+        "runnerId": "webapprunner",
+        "displayName": "App Debug",
+        "lastRunTimeStamp": 1481474570765
       }
     },
     {
