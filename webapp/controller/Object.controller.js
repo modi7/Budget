@@ -353,6 +353,13 @@ sap.ui.define([
 					visible: true,
 					text: 'Répartition'
 				}
+				,
+				interaction: {
+					selectability: {
+						mode:"SINGLE"
+					}
+				}
+				
 			});
 			var oModel = this.getModel("objectView");
 			var iId = this.getView().getBindingContext().getProperty("id");
