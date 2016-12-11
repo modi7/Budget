@@ -1,13 +1,7 @@
-<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table"
-	xmlns:form="sap.ui.layout.form" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds"
-	xmlns:viz.data="sap.viz.ui5.data" xmlns:u="sap.ui.unified" controllerName="budget.controller.Object">
-	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}"
-		busyIndicatorDelay="{objectView>/delay}" enableScrolling="false" class="sapUiContentPadding">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table" xmlns:form="sap.ui.layout.form" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz.data="sap.viz.ui5.data" xmlns:u="sap.ui.unified" controllerName="budget.controller.Object">
+	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}" busyIndicatorDelay="{objectView>/delay}" enableScrolling="false" class="sapUiContentPadding">
 		<semantic:content>
-			<ObjectHeader id="objectHeader" title="{Description}"
-				number="{ path: 'Solde', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€"
-				backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true"
-				numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
+			<ObjectHeader id="objectHeader" title="{Description}" number="{ path: 'Solde', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true" numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
 				<attributes>
 					<ObjectAttribute active="false" id="__attribute39" text="{Name}"/>
 				</attributes>
@@ -17,8 +11,7 @@
 				<items>
 					<VBox width="500px" id="__hbox0" class="vboxStyle">
 						<items>
-							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="500px" labelSpanM="4" labelSpanL="6"
-								id="detailPanel" class="backgroundForm" labelMinWidth="100">
+							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="500px" labelSpanM="4" labelSpanL="6" id="detailPanel" class="backgroundForm" labelMinWidth="100">
 								<form:content>
 									<core:Title text="Résumé" id="__title0"/>
 									<Label text="Année"/>
@@ -34,26 +27,19 @@
 										</items>
 									</ComboBox>
 									<Label text="Solde début du mois"/>
-									<ObjectNumber number="{ path: 'SoldeDebut', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
-										numberUnit="€" textAlign="End" class="numberFormat"/>
+									<ObjectNumber number="{ path: 'SoldeDebut', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" textAlign="End" class="numberFormat"/>
 									<Label text="Ressources"/>
-									<ObjectNumber number="{ path: 'Entrees', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
-										numberUnit="€" textAlign="End" class="numberFormat"/>
+									<ObjectNumber number="{ path: 'Entrees', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" textAlign="End" class="numberFormat"/>
 									<Label text="Dépenses"/>
-									<ObjectNumber number="{ path: 'Depense', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
-										numberUnit="€" textAlign="End" class="numberFormat"/>
+									<ObjectNumber number="{ path: 'Depense', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" textAlign="End" class="numberFormat"/>
 									<Label text="Dont carte"/>
-									<ObjectNumber number="{ path: 'Carte', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
-										numberUnit="€" textAlign="End" class="numberFormat"/>
+									<ObjectNumber number="{ path: 'Carte', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" textAlign="End" class="numberFormat"/>
 									<Label text="Epargne"/>
-									<ObjectNumber number="{ path: 'Epargne', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
-										numberUnit="€" textAlign="End" class="numberFormat"/>
+									<ObjectNumber number="{ path: 'Epargne', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" textAlign="End" class="numberFormat"/>
 									<Label text="Solde encours"/>
-									<ObjectNumber number="{ path: 'SoldeInt', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
-										numberUnit="€" textAlign="End" class="numberFormat"/>
+									<ObjectNumber number="{ path: 'SoldeInt', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" textAlign="End" class="numberFormat"/>
 									<Label text="Solde "/>
-									<ObjectNumber number="{ path: 'SoldeFin', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
-										numberUnit="€" textAlign="End" class="numberFormat" state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
+									<ObjectNumber number="{ path: 'SoldeFin', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" textAlign="End" class="numberFormat" state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
 								</form:content>
 							</form:SimpleForm>
 							<!--									<viz:Popover id="idPopOver"/>
@@ -75,10 +61,7 @@
 									</viz:VizFrame>-->
 						</items>
 					</VBox>
-					<table:Table id="table" selectionMode="MultiToggle" enableSelectAll="true" threshold="150" enableBusyIndicator="true"
-						visibleRowCountMode="Interactive" minAutoRowCount="1" visibleRowCount="0" selectionBehavior="RowSelector"
-						rows="{ path: 'Ecritures', sorter:{path:'Date', descending: true}, templateShareable:false, parameters: {operationMode: 'Server'} }"
-						class="tableStyle" rowSelectionChange="onSelectionTableChange">
+					<table:Table id="table" selectionMode="MultiToggle" enableSelectAll="true" threshold="150" enableBusyIndicator="true" visibleRowCountMode="Interactive" minAutoRowCount="1" visibleRowCount="0" selectionBehavior="RowSelector" rows="{ path: 'Ecritures', sorter:{path:'Date', descending: true}, templateShareable:false, parameters: {operationMode: 'Server'} }" class="tableStyle" rowSelectionChange="onSelectionTableChange">
 						<table:noData>
 							<BusyIndicator class="sapUiMediumMargin"/>
 						</table:noData>
@@ -100,8 +83,7 @@
 							<table:Column sortProperty="AffectationId" filterProperty="AffectationId" autoResizable="true" width="12rem">
 								<Label text="Affectation"/>
 								<table:template>
-									<ComboBox items="{path:'appView>/Affectations', templateShareable:false}" maxWidth="" selectedKey="{AffectationId}"
-										selectionChange="onSelectionChange">
+									<ComboBox items="{path:'appView>/Affectations', templateShareable:false}" maxWidth="" selectedKey="{AffectationId}" selectionChange="onAffectationChange">
 										<items>
 											<core:ListItem text="{appView>Description}" key="{appView>id}"/>
 										</items>
@@ -118,15 +100,13 @@
 								<Label text="Debit"/>
 								<table:template>
 									<!--<u:Currency value="{ path: 'Debit', type: 'sap.ui.model.type.Float' }"/>-->
-									<ObjectNumber number="{ path: 'Debit', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
-										textAlign="End"/>
+									<ObjectNumber number="{ path: 'Debit', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" textAlign="End"/>
 								</table:template>
 							</table:Column>
 							<table:Column filterProperty="Credit" width="7rem">
 								<Label text="Credit"/>
 								<table:template>
-									<ObjectNumber number="{ path: 'Credit', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }"
-										textAlign="End"/>
+									<ObjectNumber number="{ path: 'Credit', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" textAlign="End"/>
 									<!--<u:Currency value="{ path: 'Credit', type: 'sap.ui.model.type.Float' }" />-->
 								</table:template>
 							</table:Column>
@@ -154,11 +134,13 @@
 			</HBox>
 		</semantic:content>
 		<semantic:customFooterContent>
-			<u:FileUploader id="fileUploader" name="myFileUpload" tooltip="Charger un fichier ecriture" uploadComplete="handleUploadComplete"
-				buttonOnly="true" icon="sap-icon://upload" iconOnly="true" change="onFileChange"/>
+			<u:FileUploader id="fileUploader" name="myFileUpload" tooltip="Charger un fichier ecriture" uploadComplete="handleUploadComplete" buttonOnly="true" icon="sap-icon://upload" iconOnly="true" change="onFileChange"/>
 		</semantic:customFooterContent>
 		<!--		<semantic:addAction>
 			<semantic:AddAction tooltip="Ajouter" id="__action0" press="onAddPress"/>
 		</semantic:addAction>-->
+	<semantic:saveAction>
+	    <semantic:SaveAction visible="{objectView>/saveVisible}" press="onSavePress"/>
+	</semantic:saveAction>
 	</semantic:FullscreenPage>
 </mvc:View>

@@ -66,6 +66,7 @@ sap.ui.define([
 			oModel.setProperty("/id", oData.id);
 			oModel.setProperty("/month", oData.month);
 			oModel.setProperty("/year", oData.year);
+			oModel.setProperty("/description", oData.description);
 			oModel.setProperty("/busy", true);
 			this._reader.readAsText(oData.file);
 			/*			
