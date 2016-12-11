@@ -32,7 +32,8 @@ sap.ui.define([
 					year: dDate.getFullYear(),
 					month: dDate.getMonth() + 1,
 					deleteVisible: false,
-					saveVisible: false
+					saveVisible: false,
+					selectedType: null
 				});
 			this.setModel(oViewModel, "objectView");
 			this._oDialogModel = new JSONModel({
@@ -242,23 +243,19 @@ sap.ui.define([
 		},
 
 		onSelectData: function(oEvent) {
+
 			var oObject = oEvent.getParameter("data")[0];
 
 			var aAffectations = this.getModel("appView").getProperty("/Affectations");
-
+			console.log("Selection : " + oObject.data.Type);
 			var oAffectation = aAffectations.find(function(item) {
 				return item.Description === oObject.data.Type;
 			});
 
+			this.getModel("objectView").setProperty("/selectedType", oObject.data.Type);
+
 			var oTable = this.byId("table");
 			var oBinding = oTable.getBinding("rows");
-	//		oBinding.setOperationMode("Client");
-
-/*			var oFilter = new Filter({
-				path: "AffectationId",
-				operator: "EQ",
-				value1: oAffectation.id
-			});*/
 
 			var oFilter1 = new Filter({
 				filters: [
@@ -280,40 +277,43 @@ sap.ui.define([
 				filters: [
 					oFilter1,
 					new Filter({
-				path: "AffectationId",
-				operator: "EQ",
-				value1: oAffectation.id
+						path: "AffectationId",
+						operator: "EQ",
+						value1: oAffectation.id
 					})
 				],
 				and: true
 			});
-
 
 			oBinding.filter([oFilter]);
 
 		},
 
 		onDeselectData: function(oEvent) {
-						var oTable = this.byId("table");
+			var oObject = oEvent.getParameter("data")[0];
+			var oTable = this.byId("table");
 			var oBinding = oTable.getBinding("rows");
-			
-			var oFilter = new Filter({
-				filters: [
-					new Filter({
-						path: "Year",
-						operator: "EQ",
-						value1: this.getModel("objectView").getProperty("/year")
-					}),
-					new Filter({
-						path: "Month",
-						operator: "EQ",
-						value1: this.getModel("objectView").getProperty("/month")
-					})
-				],
-				and: true
-			});			
-			
-			oBinding.filter([oFilter]);
+
+			console.log("Deselection : " + oObject.data.Type);
+			if (this.getModel("objectView").getProperty("/selectedType") === oObject.data.Type) {
+				var oFilter = new Filter({
+					filters: [
+						new Filter({
+							path: "Year",
+							operator: "EQ",
+							value1: this.getModel("objectView").getProperty("/year")
+						}),
+						new Filter({
+							path: "Month",
+							operator: "EQ",
+							value1: this.getModel("objectView").getProperty("/month")
+						})
+					],
+					and: true
+				});
+
+				oBinding.filter([oFilter]);
+			}
 		},
 
 		/* =========================================================== 
@@ -352,14 +352,19 @@ sap.ui.define([
 				title: {
 					visible: true,
 					text: 'Répartition'
-				}
-				,
+				},
 				interaction: {
 					selectability: {
-						mode:"SINGLE"
+						mode: "SINGLE"
+					},
+					tooltip: {
+						visible: true,
+						formatString: "__UI5__FloatMaxFraction2",
+						bodyDimensionLabel: "Type",
+						bodyDimensionValue: "Debit"
 					}
 				}
-				
+
 			});
 			var oModel = this.getModel("objectView");
 			var iId = this.getView().getBindingContext().getProperty("id");
