@@ -17,7 +17,7 @@
 					<Label text="Description" width="100%" required="true"/>
 					<Input width="100%" value="{Description}" maxLength="40" fieldWidth="100%" liveChange="onFormChange"/>
 					<Label text="Montant" width="100%" required="true"/>
-					<Input width="100%" value="{newView>/montant}" maxLength="10" fieldWidth="100%" liveChange="onFormChange"/>
+					<Input width="100%" value="{path:'newView>/montant',type:'sap.ui.model.type.Float'}" maxLength="10" fieldWidth="100%" liveChange="onFormChange"/>
 					<ToggleButton text="{newView>/textDebitCredit}" press="onTogglePress" pressed="{newView>/debitCredit}" type="Transparent"
 						icon="{newView>/iconDebitCredit}" width="6rem">
 						<layoutData>
@@ -26,7 +26,7 @@
 					</ToggleButton>
 					<!--<Switch customTextOff="Debit" customTextOn="Credit" state="{newView>/debitCredit}"/>-->
 					<Label text="Carte" width="100%"/>
-					<CheckBox selected="{newView>/carte}"/>
+					<CheckBox selected="{path:'newView>/carte'}"/>
 				</form:content>
 				<form:customData>
 					<core:CustomData key="w5g.dt.editable" value="true" id="__data9"/>
