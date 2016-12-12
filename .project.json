@@ -29,6 +29,9 @@
     },
     "/webapp/view/NewEcriture.view.xml": {
       "entitySet": "Ecritures"
+    },
+    "/webapp/view/CcDetermination.view.xml": {
+      "entitySet": "Cleaffectations"
     }
   },
   "generation": [
@@ -40,12 +43,12 @@
     {
       "templateId": "ui5template.basicSAPUI5ApplicationComponent",
       "templateVersion": "1.4.0",
-      "dateTimeStamp": "Tue, 29 Nov 2016 21:17:58 GMT"
+      "dateTimeStamp": "Mon, 12 Dec 2016 16:50:06 GMT"
     },
     {
       "templateId": "uiadaptation.changespreviewjs",
       "templateVersion": "0.0.0",
-      "dateTimeStamp": "Sun, 11 Dec 2016 22:51:37 GMT"
+      "dateTimeStamp": "Mon, 12 Dec 2016 15:17:56 GMT"
     }
   ],
   "translation": {

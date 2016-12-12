@@ -55,6 +55,35 @@ sap.ui.define([
 			});
 			var oTable = this.byId("table");
 			this.oBusyIndicator = oTable.getNoData();
+
+			var oVizFrame = this.oVizFrame = this.getView().byId("idVizFrame");
+			//	var oPopOver = this.getView().byId("idPopOver");
+			//	oPopOver.connect(oVizFrame.getVizUid());
+			//	oPopOver.setFormatString("__UI5__FloatMaxFraction2");
+			oVizFrame.setVizProperties({
+				title: {
+					visible: true,
+					text: 'Répartition'
+				},
+				interaction: {
+					behaviorType: null,
+					selectability: {
+						mode: "SINGLE"
+					}
+				},
+				tooltip: {
+					visible: true,
+					formatString: "__UI5__FloatMaxFraction2",
+					bodyDimensionLabel: "Type",
+					bodyDimensionValue: "Type"
+				},
+				legend: {
+					visible: false
+				}
+				
+
+			});
+
 			this._initCustomFormat();
 		},
 
@@ -344,28 +373,6 @@ sap.ui.define([
 			this.byId("table").getBinding("rows").filter(oFilter);
 			this.byId("vizData").getBinding("data").filter(oFilter);
 
-			var oVizFrame = this.oVizFrame = this.getView().byId("idVizFrame");
-			var oPopOver = this.getView().byId("idPopOver");
-			oPopOver.connect(oVizFrame.getVizUid());
-			oPopOver.setFormatString("__UI5__FloatMaxFraction2");
-			oVizFrame.setVizProperties({
-				title: {
-					visible: true,
-					text: 'Répartition'
-				},
-				interaction: {
-					selectability: {
-						mode: "SINGLE"
-					},
-					tooltip: {
-						visible: true,
-						formatString: "__UI5__FloatMaxFraction2",
-						bodyDimensionLabel: "Type",
-						bodyDimensionValue: "Debit"
-					}
-				}
-
-			});
 			var oModel = this.getModel("objectView");
 			var iId = this.getView().getBindingContext().getProperty("id");
 			var sSoldePath = this.getModel().createKey("SoldeMois", {
@@ -490,7 +497,8 @@ sap.ui.define([
 				function(value) {
 					var fixedFloat = sap.ui.core.format.NumberFormat.getFloatInstance({
 						style: 'Standard',
-						maxFractionDigits: 2
+						maxFractionDigits: 2,
+						minFractionDigits: 2
 					});
 					return fixedFloat.format(value);
 				});

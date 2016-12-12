@@ -42,7 +42,7 @@
 									<ObjectNumber number="{ path: 'SoldeFin', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" textAlign="End" class="numberFormat" state="{path:'SoldeFin', formatter:'.formatter.soldeState'}"/>
 								</form:content>
 							</form:SimpleForm>
-							<viz:Popover id="idPopOver"/>
+							<!--<viz:Popover id="idPopOver"/>-->
 							<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" height="400px" width="550px" vizType="pie" selectData="onSelectData" deselectData="onDeselectData">
 								<viz:dataset>
 									<viz.data:FlattenedDataset data="{Repartitions}" id="vizData">

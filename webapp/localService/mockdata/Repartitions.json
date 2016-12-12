@@ -1,0 +1,4771 @@
+[{
+	"id": 220151010,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 476,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151010)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151011,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 70.27000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151011)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151012,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 30,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151012)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151013,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 90.89,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151013)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151015,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 859.4600000000002,
+	"Credit": 682.38,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151015)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151016,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 32.2,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151016)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151017,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151017)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151018,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 120,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151018)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015102,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015102)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015103,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 171.93,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015103)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015104,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": -189.74000000000007,
+	"Credit": 4079.39,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015104)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015105,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 808.4599999999998,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015105)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015106,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 281.71999999999997,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015106)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015108,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 1000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015108)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015109,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 10,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 365.74,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015109)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201511,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 59.9,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201511)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015110,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 366,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015110)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015111,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 346.77,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015111)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015111,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 415.4,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015111)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151110,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 92,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151110)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151111,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 79.26,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151111)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151112,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 30,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151112)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151113,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 82.64999999999999,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151113)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151115,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 245.39000000000001,
+	"Credit": 1344.88,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151115)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151116,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 129.63,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151116)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151117,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151117)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151118,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 40,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151118)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015112,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 15,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015112)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015112,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015112)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015113,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 117.01,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015113)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015113,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 168.99,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015113)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015114,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 314.09,
+	"Credit": 4079.39,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015114)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015115,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 148.73000000000002,
+	"Credit": 1500.35,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015115)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015115,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 796.3500000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015115)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015116,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 67.46999999999997,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015116)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015116,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 227.43,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015116)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015117,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 299.36,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015117)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015118,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 183.35,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015118)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015118,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 1500,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015118)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015119,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 11,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 133.26,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015119)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201512,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201512)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015121,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 28.38,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015121)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151211,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 75.18,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151211)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151212,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 97.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151212)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151213,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 103.08999999999999,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151213)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151215,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 390.14,
+	"Credit": 1318.38,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151215)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151216,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 232.2,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151216)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151217,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151217)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 220151218,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 370,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(220151218)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015122,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015122)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015123,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 189.98000000000002,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015123)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015124,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 110.60999999999994,
+	"Credit": 4158.47,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015124)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015125,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 634.71,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015125)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015126,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 302.55,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015126)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015128,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 2000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015128)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015129,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 12,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 484.99,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015129)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201513,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 163,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201513)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201514,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": -1211.67,
+	"Credit": 5191.52,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201514)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201515,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 727.5099999999999,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201515)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201516,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 177,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201516)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201517,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 634.96,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201517)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201518,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 3000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201518)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201519,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 1,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 424.44000000000005,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201519)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201521,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 382.64,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201521)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015210,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 754,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015210)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015211,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 66.27000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015211)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015212,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 45,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015212)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015213,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 54.33,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015213)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015215,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 409.47,
+	"Credit": 1562.6299999999999,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015215)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015216,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 312.36999999999995,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015216)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015217,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015217)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015218,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 256.79,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015218)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201522,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201522)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201523,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 163,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201523)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201524,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": -259.1,
+	"Credit": 4080.24,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201524)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201525,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 682.19,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201525)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201526,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 38.39,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201526)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201528,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 2000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201528)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201529,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 2,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 222.65,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201529)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201531,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 25,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201531)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015310,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 754,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015310)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015311,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 40.27,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015311)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015312,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 30,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015312)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015313,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 89.65,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015313)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015314,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 14,
+	"DescAffectation": "VACANCES",
+	"Debit": 430.31,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015314)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015315,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 583.4800000000001,
+	"Credit": 1583.2200000000003,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015315)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015316,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 90.48,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015316)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015317,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015317)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015318,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 342,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015318)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201533,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 164,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201533)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201534,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 291.04999999999995,
+	"Credit": 4080.24,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201534)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201535,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 824.54,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201535)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201536,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 166.17999999999998,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201536)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201537,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 476.25,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201537)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201538,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 1500,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201538)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201539,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 3,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 75.77,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201539)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201541,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 424.09000000000003,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201541)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015410,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 754,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015410)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015411,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 66.27000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015411)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015412,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 60,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015412)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015413,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 75.12,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015413)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015414,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 14,
+	"DescAffectation": "VACANCES",
+	"Debit": 521.12,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015414)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015415,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 524.12,
+	"Credit": 1634.55,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015415)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015416,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 54.6,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015416)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015417,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015417)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015418,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 121,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015418)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201542,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201542)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201543,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 163,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201543)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201544,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 127.99999999999996,
+	"Credit": 4080.24,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201544)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201545,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 789.96,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201545)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201546,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 396.25,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201546)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201548,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 1023.69,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201548)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201549,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 4,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 283.14,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201549)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201551,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 77,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201551)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015510,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 754,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015510)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015511,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 150.26,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015511)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015512,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 54.9,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015512)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015513,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 130.78,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015513)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015515,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 437.05,
+	"Credit": 1601.8999999999999,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015515)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015516,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 23.1,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015516)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015517,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015517)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015518,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 116,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015518)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201552,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201552)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201553,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 170,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201553)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201554,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 392.93999999999994,
+	"Credit": 4080.24,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201554)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201555,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 493.37000000000006,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201555)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201556,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 51.61,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201556)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201557,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 327.46000000000004,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201557)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201559,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 5,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 545.77,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201559)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015610,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 754,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015610)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015611,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 70.27000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015611)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015612,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 30,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015612)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015613,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 102.13,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015613)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015615,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 681.52,
+	"Credit": 1558.69,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015615)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015616,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 531.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015616)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015617,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015617)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015618,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 437.47,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015618)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201562,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201562)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201563,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 206,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201563)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201564,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": -409.9999999999999,
+	"Credit": 4080.24,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201564)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201565,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 821.51,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201565)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201566,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 262.32,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201566)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201568,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 2000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201568)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201569,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 6,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 399.49,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201569)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201571,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 49.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201571)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015710,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 344,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015710)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015711,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 70.27000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015711)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015712,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 30,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015712)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015713,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 90.52999999999999,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015713)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015715,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 690.48,
+	"Credit": 1756.8100000000002,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015715)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015716,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 133.7,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015716)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015717,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015717)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015718,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 417.96000000000004,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015718)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201573,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 219.55,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201573)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201574,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 306,
+	"Credit": 4080.24,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201574)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201575,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 467.46000000000004,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201575)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201576,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 128.14,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201576)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201577,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 195.34,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201577)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201578,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 1000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201578)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201579,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 7,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 500.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201579)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015810,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 754,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015810)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015811,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 70.27000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015811)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015812,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 60,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015812)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015813,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 131.77,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015813)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015814,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 14,
+	"DescAffectation": "VACANCES",
+	"Debit": 4685.25,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015814)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015815,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 279.01,
+	"Credit": 1428.37,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015815)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015816,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 23.929999999999996,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015816)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015817,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015817)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015818,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 74.14000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015818)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201584,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": -231.10000000000002,
+	"Credit": 5361.15,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201584)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201585,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 221.21000000000004,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201585)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201586,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 111.34,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201586)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201587,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 138.55,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201587)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201589,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 8,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 111.55,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201589)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015910,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 754,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015910)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015911,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 40.27,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015911)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015912,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 30,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015912)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015913,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 83.21,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015913)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015915,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 1201.3799999999999,
+	"Credit": 1583.43,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015915)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015916,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 105.2,
+	"Credit": 80,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015916)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015917,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015917)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22015918,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 95,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22015918)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201592,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201592)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201593,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201593)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201594,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 144.7,
+	"Credit": 4275.39,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201594)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201595,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 710.6000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201595)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201596,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 59.18000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201596)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201597,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 192.22,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201597)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201598,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 1000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201598)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201599,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2015,
+	"Month": 9,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 273.78999999999996,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201599)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201611,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 1772.3799999999999,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201611)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016110,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 734,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016110)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016111,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 54.36,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016111)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016113,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 118.91000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016113)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016115,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 363.79999999999995,
+	"Credit": 1421.59,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016115)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016116,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 52.4,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016116)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016117,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016117)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016118,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 250,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016118)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201612,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 15.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201612)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201613,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 163,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201613)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201614,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 110.10000000000002,
+	"Credit": 5361.19,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201614)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201615,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 544.71,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201615)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201616,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 39.99,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201616)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201617,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 410.40999999999997,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201617)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201618,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 1000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201618)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201619,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 1,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 390.93,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201619)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201621,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 2074.84,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201621)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016210,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 734,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016210)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016211,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 50.870000000000005,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016211)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016213,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 112.05999999999999,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016213)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016214,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 14,
+	"DescAffectation": "VACANCES",
+	"Debit": 465,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016214)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016215,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 796.12,
+	"Credit": 947.38,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016215)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016216,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 102.2,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016216)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016217,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016217)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016218,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 96.1,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016218)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201622,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201622)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201623,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 167,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201623)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201624,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 252.87999999999997,
+	"Credit": 4233.12,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201624)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201625,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 658.1399999999999,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201625)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201626,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 427,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201626)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201629,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 2,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 104.61,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201629)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201631,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 333.91,
+	"Credit": 1500,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201631)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016310,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 734,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016310)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016311,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 41.88,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016311)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016313,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 125.46000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016313)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016315,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 423.38,
+	"Credit": 1467.9,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016315)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016316,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 65.12,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016316)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016317,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016317)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016318,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 370,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016318)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201632,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201632)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201634,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 74.10000000000004,
+	"Credit": 4233.12,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201634)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201635,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 690.19,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201635)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201636,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 437.01,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201636)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201637,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 442.53,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201637)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201639,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 3,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 27.27,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201639)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201641,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 309.68,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201641)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016410,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 734,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016410)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016411,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 41.88,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016411)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016412,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 49.6,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016412)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016413,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 89.32,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016413)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016415,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 469.35999999999996,
+	"Credit": 1433.47,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016415)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016416,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 6.6,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016416)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016417,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016417)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016418,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 40,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016418)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201642,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201642)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201643,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 215.19,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201643)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201644,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": -223.97999999999996,
+	"Credit": 4233.12,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201644)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201645,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 726.4200000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201645)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201646,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 238.01,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201646)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201648,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 2000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201648)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201649,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 4,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 262.46000000000004,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201649)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201651,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 100.55000000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201651)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016510,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 734,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016510)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016511,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": -111.95000000000002,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016511)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016513,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 87.32999999999998,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016513)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016514,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 14,
+	"DescAffectation": "VACANCES",
+	"Debit": 579,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016514)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016515,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 838.4399999999999,
+	"Credit": 1384.71,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016515)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016516,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 207,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016516)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016517,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016517)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016518,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 118,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016518)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201652,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201652)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201653,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 167,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201653)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201654,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 35.89999999999998,
+	"Credit": 4991.75,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201654)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201655,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 672.47,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201655)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201656,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 642.9900000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201656)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201657,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 354.63,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201657)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201658,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 2800,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201658)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201659,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 5,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 110.31,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201659)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201661,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 299,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201661)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016610,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 734,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016610)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016611,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 41.88,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016611)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016613,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 52.54,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016613)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016615,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 140.31,
+	"Credit": 1425.46,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016615)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016616,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 301.04,
+	"Credit": 23,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016616)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016617,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016617)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201663,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 3,
+	"DescAffectation": "BEBE",
+	"Debit": 191,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201663)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201664,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 558.23,
+	"Credit": 5749.59,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201664)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201665,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 450.7,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201665)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201666,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 785.58,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201666)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201668,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 1000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201668)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201669,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 6,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 124.53999999999999,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201669)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201671,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 2655,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201671)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016710,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 734,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016710)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016711,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 41.88,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016711)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016713,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 49.050000000000004,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016713)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016715,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 18.85,
+	"Credit": 523.89,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016715)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016716,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 439.65000000000003,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016716)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201674,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 98,
+	"Credit": 5857.45,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201674)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201675,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 406.26,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201675)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201676,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 1890.5499999999997,
+	"Credit": 901.46,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201676)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201679,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 7,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 357.55,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201679)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201681,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 1,
+	"DescAffectation": "APPART",
+	"Debit": 4552.21,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201681)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016810,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 10,
+	"DescAffectation": "IMPOTS",
+	"Debit": 734,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016810)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016811,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 41.88,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016811)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016812,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 12,
+	"DescAffectation": "TABAC",
+	"Debit": 89.9,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016812)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016813,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 43.52,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016813)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016814,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 14,
+	"DescAffectation": "VACANCES",
+	"Debit": 938.1500000000001,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016814)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016815,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 568.7099999999999,
+	"Credit": 1394.3799999999999,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016815)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016816,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 60,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016816)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016817,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016817)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016818,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 550,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016818)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201682,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 2,
+	"DescAffectation": "BANQUE",
+	"Debit": 3.5,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201682)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201684,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 124,
+	"Credit": 6636.88,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201684)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201685,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 694.5499999999998,
+	"Credit": 19.98,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201685)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201686,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 430.28000000000003,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201686)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201687,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 7,
+	"DescAffectation": "EDF",
+	"Debit": 169.04,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201687)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201689,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 8,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 165.65,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201689)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016911,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 11,
+	"DescAffectation": "STUDIO",
+	"Debit": 41.88,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016911)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016913,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 13,
+	"DescAffectation": "TELEPHONE",
+	"Debit": 50.05,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016913)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016915,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 15,
+	"DescAffectation": "VIVI",
+	"Debit": 100,
+	"Credit": 947.89,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016915)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016916,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 16,
+	"DescAffectation": "SANTE",
+	"Debit": 45,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016916)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016917,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 17,
+	"DescAffectation": "CREDIT IMMO",
+	"Debit": 720.86,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016917)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 22016918,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 18,
+	"DescAffectation": "AMINE",
+	"Debit": 50,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(22016918)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201694,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 4,
+	"DescAffectation": "BOULOT",
+	"Debit": 742.5,
+	"Credit": 4313.12,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201694)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201695,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 5,
+	"DescAffectation": "COURS",
+	"Debit": 146.89,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201695)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201696,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 6,
+	"DescAffectation": "DIVERS",
+	"Debit": 138.14,
+	"Credit": 311.02,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201696)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201698,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 8,
+	"DescAffectation": "EPARGNE",
+	"Debit": 1000,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201698)",
+		"type": "NODATASERVER.Repartition"
+	}
+}, {
+	"id": 2201699,
+	"CompteId": 2,
+	"Description": "BOURSORAMA ESSENTIEL",
+	"Kind": "N",
+	"Year": 2016,
+	"Month": 9,
+	"AffectationId": 9,
+	"DescAffectation": "HABILLEMENT",
+	"Debit": 61.97,
+	"Credit": null,
+	"__metadata": {
+		"uri": "http://localhost:3000/odata/Repartitions(2201699)",
+		"type": "NODATASERVER.Repartition"
+	}
+}]
