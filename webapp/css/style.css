@@ -45,9 +45,10 @@
 }
 
 .tilesStyle {
-    margin-top: 10%;
-    margin-lef: 10%;
-    width: 90%;
+    margin-top: auto;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
 }
 
 .newForm {
@@ -61,4 +62,13 @@
     /*max-width: 1000px;*/
     min-width:900px;
     max-height: 600px;
+}
+
+.CCTable{
+
+	/*margin-top:3rem;*/
+    margin-right: 15%;
+    margin-left: 15%;
+	height: 80%;
+	
 }

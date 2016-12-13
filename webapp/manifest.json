@@ -108,6 +108,12 @@
 				"pattern": "Balance/{objectId}",
 				"name": "object",
 				"target": ["object"]
+			}, {
+				"name": "detAffectation",
+				"pattern": "toto",
+				"titleTarget": "",
+				"greedy": false,
+				"target": ["worklist", "detAffectation"]
 			}],
 			"targets": {
 				"worklist": {
@@ -133,6 +139,14 @@
 					"transition": "slide",
 					"clearAggregation": true,
 					"viewName": "Upload"
+				},
+				"detAffectation": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "CcDetermination",
+					"viewLevel": 2,
+					"viewId": "detAffectation"
 				}
 			}
 		},

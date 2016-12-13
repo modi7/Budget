@@ -4,13 +4,16 @@ sap.ui.define([
 		"budget/model/formatter",
 		"sap/ui/model/Filter",
 		"sap/ui/model/FilterOperator",
-		"sap/ui/core/routing/History"
-	], function (BaseController, JSONModel, formatter, Filter, FilterOperator, History) {
+		"sap/ui/core/routing/History",
+		"budget/model/toolHeader",
+	], function (BaseController, JSONModel, formatter, Filter, FilterOperator, History, toolHeader) {
 		"use strict";
 
 		return BaseController.extend("budget.controller.Worklist", {
 
 			formatter: formatter,
+			
+			toolHeader: toolHeader,
 
 			/* =========================================================== */
 			/* lifecycle methods                                           */

@@ -2,9 +2,9 @@
     <SideNavigation id="sideNavigation" expanded="false">
         <item>
             <NavigationList>
-                <NavigationListItem text="Ajouté un compte" icon="sap-icon://loan"></NavigationListItem>
+                <NavigationListItem text="Ajouté un compte" icon="sap-icon://loan" ></NavigationListItem>
                 <NavigationListItem text="Reporting" icon="sap-icon://business-objects-experience"></NavigationListItem>
-                <NavigationListItem text="Détermination des CC" icon="sap-icon://detail-view"></NavigationListItem>
+                <NavigationListItem text="Détermination des CC" icon="sap-icon://detail-view" select=".toolHeader.onCCDetermination"></NavigationListItem>
             </NavigationList>
         </item>
 <!--        <fixedItem>
