@@ -110,7 +110,7 @@
 				"target": ["object"]
 			}, {
 				"name": "detAffectation",
-				"pattern": "toto",
+				"pattern": "DetCC",
 				"titleTarget": "",
 				"greedy": false,
 				"target": ["worklist", "detAffectation"]
