@@ -1,20 +1,26 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:table="sap.ui.table" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="budget.controller.CcDetermination">
-	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Determination Centres de couts" id="__page0" showNavButton="true" navButtonPress="onNavBack">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:table="sap.ui.table"
+	xmlns:html="http://www.w3.org/1999/xhtml" controllerName="budget.controller.CcDetermination">
+	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Determination Centres de couts" id="__page0"
+		showNavButton="true" navButtonPress="onNavBack">
 		<sap.m.semantic:content>
 			<table:Table rows="{ path: '/Cleaffectations',sorter: {path: 'AffectationId'}}" class="CCTable" width="70%" visibleRowCountMode="Auto">
-										<table:toolbar>
-							<Toolbar>
-								<Title id="title" text="Ecritures"/>
-								<ToolbarSpacer/>
-								<Button icon="sap-icon://add" tooltip="Ajouter une ecriture" press="onAddPress"/>
-								<Button icon="sap-icon://less" tooltip="supprimer ecriture" type="Transparent" visible="{CCView>/deleteVisible}" press="onRemovePress"/>
-							</Toolbar>
-						</table:toolbar>
+				<table:noData>
+					<BusyIndicator class="sapUiMediumMargin"/>
+				</table:noData>
+				<table:toolbar>
+					<Toolbar>
+						<Title id="title" text="Ecritures"/>
+						<ToolbarSpacer/>
+						<Button icon="sap-icon://add" tooltip="Ajouter une ecriture" press="onAddPress"/>
+						<Button icon="sap-icon://less" tooltip="supprimer ecriture" type="Transparent" visible="{CCView>/deleteVisible}" press="onRemovePress"/>
+					</Toolbar>
+				</table:toolbar>
 				<table:columns>
 					<table:Column width="15em">
 						<Label text="Affectation"/>
 						<table:template>
-							<ComboBox items="{path:'appView>/Affectations', templateShareable:false}" selectedKey="{AffectationId}" selectionChange="onAffectationChange">
+							<ComboBox items="{path:'appView>/Affectations', templateShareable:false}" selectedKey="{AffectationId}"
+								selectionChange="onAffectationChange">
 								<items>
 									<core:ListItem text="{appView>Description}" key="{appView>id}"/>
 								</items>
