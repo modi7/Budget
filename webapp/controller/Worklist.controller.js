@@ -65,7 +65,12 @@ sap.ui.define([
 				history.go(-1);
 			},
 
-
+		onCCDetermination: function(oEvent) {
+			/** @type sap.m.routing.Router */
+			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			oRouter.navTo("detAffectation", null, true);
+			//oRouter.getTargets().display("detAffectation");
+		},
 			/* =========================================================== */
 			/* internal methods                                            */
 			/* =========================================================== */

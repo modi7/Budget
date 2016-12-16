@@ -49,42 +49,14 @@ sap.ui.define([
 			this.getRouter().getRoute("object").attachPatternMatched(this._onObjectMatched, this);
 			// Store original busy indicator delay, so it can be restored later on
 			iOriginalBusyDelay = this.getView().getBusyIndicatorDelay();
+		
 			this.getOwnerComponent().getModel().metadataLoaded().then(function() {
 				// Restore original busy indicator delay for the object view
 				oViewModel.setProperty("/delay", iOriginalBusyDelay);
 			});
-			var oTable = this.byId("table");
-			this.oBusyIndicator = oTable.getNoData();
 
-			var oVizFrame = this.oVizFrame = this.getView().byId("idVizFrame");
-			//	var oPopOver = this.getView().byId("idPopOver");
-			//	oPopOver.connect(oVizFrame.getVizUid());
-			//	oPopOver.setFormatString("__UI5__FloatMaxFraction2");
-			oVizFrame.setVizProperties({
-				title: {
-					visible: true,
-					text: 'Répartition'
-				},
-				interaction: {
-					behaviorType: null,
-					selectability: {
-						mode: "SINGLE"
-					}
-				},
-				tooltip: {
-					visible: true,
-					formatString: "__UI5__FloatMaxFraction2",
-					bodyDimensionLabel: "Type",
-					bodyDimensionValue: "Type"
-				},
-				legend: {
-					visible: false
-				}
-				
+			this._initViz();
 
-			});
-
-			this._initCustomFormat();
 		},
 
 		/* =========================================================== */
@@ -276,7 +248,7 @@ sap.ui.define([
 			var oObject = oEvent.getParameter("data")[0];
 
 			var aAffectations = this.getModel("appView").getProperty("/Affectations");
-			console.log("Selection : " + oObject.data.Type);
+			//console.log("Selection : " + oObject.data.Type);
 			var oAffectation = aAffectations.find(function(item) {
 				return item.Description === oObject.data.Type;
 			});
@@ -323,7 +295,6 @@ sap.ui.define([
 			var oTable = this.byId("table");
 			var oBinding = oTable.getBinding("rows");
 
-			console.log("Deselection : " + oObject.data.Type);
 			if (this.getModel("objectView").getProperty("/selectedType") === oObject.data.Type) {
 				var oFilter = new Filter({
 					filters: [
@@ -507,6 +478,38 @@ sap.ui.define([
 
 		_deleteSuccess: function() {
 			this.getModel().refresh();
+		},
+
+		_initViz: function() {
+
+			var oVizFrame = this.oVizFrame = this.getView().byId("idVizFrame");
+			//	var oPopOver = this.getView().byId("idPopOver");
+			//	oPopOver.connect(oVizFrame.getVizUid());
+			//	oPopOver.setFormatString("__UI5__FloatMaxFraction2");
+			oVizFrame.setVizProperties({
+				title: {
+					visible: true,
+					text: 'Répartition'
+				},
+				interaction: {
+					behaviorType: null,
+					selectability: {
+						mode: "SINGLE"
+					}
+				},
+				tooltip: {
+					visible: true,
+					formatString: "__UI5__FloatMaxFraction2",
+					bodyDimensionLabel: "Type",
+					bodyDimensionValue: "Type"
+				},
+				legend: {
+					visible: false
+				}
+
+			});
+
+			this._initCustomFormat();
 		}
 
 	});

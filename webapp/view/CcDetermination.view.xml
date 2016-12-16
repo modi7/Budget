@@ -1,9 +1,8 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:table="sap.ui.table"
-	xmlns:html="http://www.w3.org/1999/xhtml" controllerName="budget.controller.CcDetermination">
-	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Determination Centres de couts" id="__page0"
-		showNavButton="true" navButtonPress="onNavBack">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:table="sap.ui.table" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="budget.controller.CcDetermination">
+	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Determination Centres de couts" id="__page0" showNavButton="true" navButtonPress="onNavBack">
 		<sap.m.semantic:content>
-			<table:Table rows="{ path: '/Cleaffectations',sorter: {path: 'AffectationId'}}" class="CCTable" width="70%" visibleRowCountMode="Auto">
+		    <!--,sorter: {path: 'AffectationId'}-->
+			<table:Table rows="{ path: '/Cleaffectations'}" id="CCTable" class="CCTable" width="70%" visibleRowCountMode="Auto">
 				<table:noData>
 					<BusyIndicator class="sapUiMediumMargin"/>
 				</table:noData>
@@ -19,8 +18,7 @@
 					<table:Column width="15em">
 						<Label text="Affectation"/>
 						<table:template>
-							<ComboBox items="{path:'appView>/Affectations', templateShareable:false}" selectedKey="{AffectationId}"
-								selectionChange="onAffectationChange">
+							<ComboBox items="{path:'appView>/Affectations', templateShareable:false}" selectedKey="{AffectationId}" selectionChange="onAffectationChange">
 								<items>
 									<core:ListItem text="{appView>Description}" key="{appView>id}"/>
 								</items>
@@ -36,5 +34,8 @@
 				</table:columns>
 			</table:Table>
 		</sap.m.semantic:content>
+	<sap.m.semantic:saveAction>
+	    <sap.m.semantic:SaveAction id="__action0" visible="{CCview&gt;/saveVisible}"/>
+	</sap.m.semantic:saveAction>
 	</sap.m.semantic:FullscreenPage>
 </mvc:View>
