@@ -19,14 +19,14 @@ sap.ui.define([
 				saveVisible: false
 			});
 			this.setModel(oViewModel, "CCView");
-			var iOriginalBusyDelay = this.getView().getBusyIndicatorDelay();
+//			var iOriginalBusyDelay = this.getView().getBusyIndicatorDelay();
 
 			this.getRouter().getRoute("detAffectation").attachPatternMatched(this._onCCMatched, this);
 
-			this.getOwnerComponent().getModel().metadataLoaded().then(function() {
-				// Restore original busy indicator delay for the object view
-				oViewModel.setProperty("/delay", iOriginalBusyDelay);
-			});
+// 			this.getOwnerComponent().getModel().metadataLoaded().then(function() {
+// 				// Restore original busy indicator delay for the object view
+// 				oViewModel.setProperty("/delay", iOriginalBusyDelay);
+// 			});
 
 		},
 		/* =========================================================== */

@@ -35,7 +35,7 @@
 			</table:Table>
 		</sap.m.semantic:content>
 	<sap.m.semantic:saveAction>
-	    <sap.m.semantic:SaveAction id="__action0" visible="{CCview&gt;/saveVisible}"/>
+	    <sap.m.semantic:SaveAction id="__action0" visible="{CCview>/saveVisible}"/>
 	</sap.m.semantic:saveAction>
 	</sap.m.semantic:FullscreenPage>
 </mvc:View>

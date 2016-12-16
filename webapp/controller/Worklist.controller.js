@@ -4,16 +4,15 @@ sap.ui.define([
 		"budget/model/formatter",
 		"sap/ui/model/Filter",
 		"sap/ui/model/FilterOperator",
-		"sap/ui/core/routing/History",
-		"budget/model/toolHeader",
-	], function (BaseController, JSONModel, formatter, Filter, FilterOperator, History, toolHeader) {
+		"sap/ui/core/routing/History"
+//		"budget/model/toolHeader",
+	], function (BaseController, JSONModel, formatter, Filter, FilterOperator, History) {
 		"use strict";
 
 		return BaseController.extend("budget.controller.Worklist", {
 
 			formatter: formatter,
-			
-			toolHeader: toolHeader,
+//			toolHeader: toolHeader,
 
 			/* =========================================================== */
 			/* lifecycle methods                                           */
@@ -68,8 +67,8 @@ sap.ui.define([
 		onCCDetermination: function(oEvent) {
 			/** @type sap.m.routing.Router */
 			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			oRouter.navTo("detAffectation", null, true);
-			//oRouter.getTargets().display("detAffectation");
+			//oRouter.navTo("detAffectation", null, true);
+			oRouter.getTargets().display("detAffectation");
 		},
 			/* =========================================================== */
 			/* internal methods                                            */
