@@ -2,13 +2,13 @@
 	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Determination Centres de couts" id="__page0" showNavButton="true" navButtonPress="onNavBack">
 		<sap.m.semantic:content>
 		    <!--,sorter: {path: 'AffectationId'}-->
-			<table:Table rows="{ path: '/Cleaffectations'}" id="CCTable" class="CCTable" width="70%" visibleRowCountMode="Auto">
+			<table:Table rows="{ path: '/Cleaffectations', sorter:{path:'AffectationId'}}" id="CCTable" class="CCTable" width="70%" visibleRowCountMode="Auto">
 				<table:noData>
 					<BusyIndicator class="sapUiMediumMargin"/>
 				</table:noData>
 				<table:toolbar>
 					<Toolbar>
-						<Title id="title" text="Ecritures"/>
+						<Title id="title" text=""/>
 						<ToolbarSpacer/>
 						<Button icon="sap-icon://add" tooltip="Ajouter une ecriture" press="onAddPress"/>
 						<Button icon="sap-icon://less" tooltip="supprimer ecriture" type="Transparent" visible="{CCView>/deleteVisible}" press="onRemovePress"/>
@@ -35,7 +35,7 @@
 			</table:Table>
 		</sap.m.semantic:content>
 	<sap.m.semantic:saveAction>
-	    <sap.m.semantic:SaveAction id="__action0" visible="{CCview>/saveVisible}"/>
+	    <sap.m.semantic:SaveAction id="__action0" visible="{CCView>/saveVisible}" press="onSavePress"/>
 	</sap.m.semantic:saveAction>
 	</sap.m.semantic:FullscreenPage>
 </mvc:View>
