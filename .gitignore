@@ -12,3 +12,4 @@ mock_preview_sapui5.html
 /webapp/index.html
 /webapp/resources
 /webapp/resources/*.*
+webapp/.vscode/settings.json

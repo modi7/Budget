@@ -1,5 +1,6 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:table="sap.ui.table" controllerName="budget.controller.Upload">
 	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="__page1" busy="{uploadView>/busy}">
+			<core:Fragment xmlns:core="sap.ui.core" fragmentName="budget.fragment.ToolHeader" type="XML" id="__header1"/>
 		<sap.m.semantic:cancelAction>
 			<sap.m.semantic:CancelAction press="onCancel"/>
 		</sap.m.semantic:cancelAction>

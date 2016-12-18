@@ -3,11 +3,13 @@ sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/routing/History",
 		"budget/model/formatter",
-	"sap/m/MessageBox"
-], function(Controller, JSONModel, History,formatter, MessageBox) {
+	"sap/m/MessageBox",
+	  "budget/model/toolHeader"
+], function(Controller, JSONModel, History,formatter, MessageBox,toolHeader) {
 	"use strict";
 	return Controller.extend("budget.controller.Upload", {
 				formatter: formatter,
+				toolHeader: toolHeader,
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
@@ -36,7 +38,7 @@ sap.ui.define([
 					//	styleClass: oComponent.getContentDensityClass(),
 					onClose: function(oAction) {
 						if (oAction === sap.m.MessageBox.Action.OK) {
-							
+
 							this.getModel().resetChanges();
 							this._navBack();
 
@@ -69,7 +71,7 @@ sap.ui.define([
 			oModel.setProperty("/description", oData.description);
 			oModel.setProperty("/busy", true);
 			this._reader.readAsText(oData.file);
-			/*			
+			/*
 								var oContext = this.getModel().createEntry("Ecritures", {
 											success: this._fnEntityCreated.bind(this),
 											error: this._fnEntityCreationFailed.bind(this),

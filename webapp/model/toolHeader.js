@@ -6,7 +6,7 @@ sap.ui.define([], function() {
 		onCCDetermination: function(oEvent) {
 			/** @type sap.m.routing.Router */
 			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			oRouter.navTo("detAffectation", null, true);
+			oRouter.navTo("detAffectation");
 			//oRouter.getTargets().display("detAffectation");
 		}
 	};
