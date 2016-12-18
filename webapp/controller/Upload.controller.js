@@ -2,14 +2,14 @@ sap.ui.define([
 	"budget/controller/BaseController",
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/routing/History",
-		"budget/model/formatter",
+	"budget/model/formatter",
 	"sap/m/MessageBox",
-	  "budget/model/toolHeader"
-], function(Controller, JSONModel, History,formatter, MessageBox,toolHeader) {
+	"budget/model/toolHeader"
+], function(Controller, JSONModel, History, formatter, MessageBox, toolHeader) {
 	"use strict";
 	return Controller.extend("budget.controller.Upload", {
-				formatter: formatter,
-				toolHeader: toolHeader,
+		formatter: formatter,
+		toolHeader: toolHeader,
 		/**
 		 * Called when a controller is instantiated and its View controls (if available) are already created.
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
@@ -52,14 +52,15 @@ sap.ui.define([
 		},
 
 		_navBack: function() {
-			/*			var sPreviousHash = History.getInstance().getPreviousHash();
-						if (sPreviousHash !== undefined) {
-							history.go(-1);
-						} else {*/
-			//this.getRouter().navTo("object", {}, true);
-							var oModel = this.getModel("uploadView");
+			var oModel = this.getModel("uploadView");
 			oModel.setProperty("/ecritures", []);
-			this.getRouter().getTargets().display("object"); // }
+			var sPreviousHash = History.getInstance().getPreviousHash();
+			if (sPreviousHash !== undefined) {
+				history.go(-1);
+			} else {
+
+				this.getRouter().getTargets().display("object");
+			}
 		},
 
 		_onUpload: function(oEvent) {
@@ -70,19 +71,7 @@ sap.ui.define([
 			oModel.setProperty("/year", oData.year);
 			oModel.setProperty("/description", oData.description);
 			oModel.setProperty("/busy", true);
-			this._reader.readAsText(oData.file);
-			/*
-								var oContext = this.getModel().createEntry("Ecritures", {
-											success: this._fnEntityCreated.bind(this),
-											error: this._fnEntityCreationFailed.bind(this),
-									properties: {
-										CompteId: oData.id,
-										Month: oData.month,
-										Year: oData.year
-									}
-								});
-								this.getView().setBindingContext(oContext);
-					  */
+			this._reader.readAsText(this.getModel("appView").getProperty("/file"));
 		},
 
 		onReaderLoad: function(oEvent) {
@@ -186,7 +175,7 @@ sap.ui.define([
 			var aEcritures = oModel.getProperty("/ecritures");
 			var iLength = aEcritures.length;
 			aEcritures.forEach(function(item, index) {
-					item.Credit = item.Credit > 0.00 && item.Debit < 0.00  ? null : item.Credit;
+				item.Credit = item.Credit > 0.00 && item.Debit < 0.00 ? null : item.Credit;
 				if (iLength === index) {
 					this.getModel().createEntry("Ecritures", {
 						//success: this._addSuccess.bind(this),

@@ -1,6 +1,40 @@
 {
   "run": [
     {
+      "filePath": "/Budget/webapp/test/mockServer.html",
+      "previewMode": 1,
+      "dataMode": 0,
+      "workspace": "withoutWorkspace",
+      "urlParameters": [
+        {
+          "paramName": "sap-ui-debug",
+          "paramValue": "false",
+          "paramActive": false
+        },
+        {
+          "paramName": "",
+          "paramValue": "",
+          "paramActive": false
+        }
+      ],
+      "hashParameter": "",
+      "ui5ActiveVersion": "1.40.12",
+      "ui5VerSource": null,
+      "isDefaultVersion": 1,
+      "backendSystem": [
+        {
+          "source": "Node",
+          "destinations": ""
+        }
+      ],
+      "_metadata": {
+        "id": 87567847,
+        "runnerId": "webapprunner",
+        "displayName": "App (Mock Server)",
+        "lastRunTimeStamp": 1482076957490
+      }
+    },
+    {
       "filePath": "/Budget/webapp/index.html",
       "previewMode": 1,
       "dataMode": 1,
@@ -26,40 +60,6 @@
         "runnerId": "webapprunner",
         "displayName": "App",
         "lastRunTimeStamp": 1482067480480
-      }
-    },
-    {
-      "filePath": "/Budget/webapp/test/mockServer.html",
-      "previewMode": 1,
-      "dataMode": 0,
-      "workspace": "withoutWorkspace",
-      "urlParameters": [
-        {
-          "paramName": "sap-ui-debug",
-          "paramValue": "true",
-          "paramActive": false
-        },
-        {
-          "paramName": "",
-          "paramValue": "",
-          "paramActive": false
-        }
-      ],
-      "hashParameter": "",
-      "ui5ActiveVersion": "1.40.12",
-      "ui5VerSource": null,
-      "isDefaultVersion": 1,
-      "backendSystem": [
-        {
-          "source": "Node",
-          "destinations": ""
-        }
-      ],
-      "_metadata": {
-        "id": 87567847,
-        "runnerId": "webapprunner",
-        "displayName": "App (Mock Server)",
-        "lastRunTimeStamp": 1482064061932
       }
     },
     {

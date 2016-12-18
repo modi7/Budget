@@ -66,7 +66,8 @@ sap.ui.define([
 				months: aMonths,
 				years: aYears,
 				Affectations: [],
-				Cleaffectations: []
+				Cleaffectations: [],
+				file: null
 			});
 			this.setModel(oViewModel, "appView");
 
