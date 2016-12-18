@@ -1,0 +1,19 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+	<Dialog title="Nouvelle Détermination" contentWidth="580px">
+		<f:SimpleForm editable="true" layout="ResponsiveGridLayout" id="CCform">
+			<f:content>
+				<Label text="Centre de cout" id="__label2" required="true"/>
+				<ComboBox items="{path:'appView>/Affectations', templateShareable:false}" selectedKey="{AffectationId}" width="50%"
+					selectionChange="onFormChange">
+					<items>
+						<core:ListItem xmlns:core="sap.ui.core" text="{appView>Description}" key="{appView>id}"/>
+					</items>
+				</ComboBox>
+				<Label text="Texte de determination" required="true"/>
+				<Input width="100%" required="true" value="{Text}" change="onFormChange"/>
+			</f:content>
+		</f:SimpleForm>
+		<beginButton><Button icon="sap-icon://save" type="Transparent" enabled="{CCView>/saveDialogEnabled}" press="onDialogSave"/></beginButton>
+		<endButton><Button icon="sap-icon://sys-cancel" type="Transparent" press="onDialogCancel"/></endButton>
+	</Dialog>
+</core:FragmentDefinition>

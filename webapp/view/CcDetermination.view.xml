@@ -2,7 +2,8 @@
 	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Determination Centres de couts" id="__page0" showNavButton="true" navButtonPress="onNavBack">
 		<sap.m.semantic:content>
 		    <!--,sorter: {path: 'AffectationId'}-->
-			<table:Table rows="{ path: '/Cleaffectations', sorter:{path:'AffectationId'}}" id="CCTable" class="CCTable" width="70%" visibleRowCountMode="Auto">
+			<table:Table rows="{ path: '/Cleaffectations', sorter:{path:'AffectationId'}}" id="CCTable" class="CCTable" width="70%" visibleRowCountMode="Auto"
+			rowSelectionChange="onSelectionTableChange">
 				<table:noData>
 					<BusyIndicator class="sapUiMediumMargin"/>
 				</table:noData>
